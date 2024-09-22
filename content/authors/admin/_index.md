@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 안현
+title: 안 현
 
 # Is this the primary user of the site?
 superuser: true
