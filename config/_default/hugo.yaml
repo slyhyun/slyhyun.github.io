@@ -10,7 +10,7 @@ baseURL: 'https://slyhyun.github.io/' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: ko
+defaultContentLanguage: en-us
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
