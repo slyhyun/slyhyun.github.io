@@ -3,6 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+<<<<<<< HEAD
 title: slyhyun  # Website name
 baseURL: 'https://slyhyun.github.io/' # Website URL
 
@@ -19,12 +20,13 @@ cascade:
     commentable: true
     show_related: true
     show_breadcrumb: true
+=======
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: en-us
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
@@ -32,7 +34,8 @@ removePathAccents: true
 ############################
 ## ADVANCED
 ############################
-
+build:
+  writeStats:true
 enableGitInfo: false
 summaryLength: 30
 paginate: 10
@@ -56,6 +59,7 @@ timeout: 600000
 taxonomies:
   tag: tags
   category: categories
+  publication_type: publication_types
   author: authors
 markup:
   _merge: deep
@@ -71,6 +75,4 @@ related:
 security:
   _merge: deep
 sitemap:
-  _merge: deep
-minify:
   _merge: deep
