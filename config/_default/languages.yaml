@@ -3,12 +3,13 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-ko:
-  languageCode: ko
-# Uncomment the lines below to configure your website in a second language.
-contentDir: content/ko
+language:
+  ko:
+    languageCode: ko
+  # Uncomment the lines below to configure your website in a second language.
+  contentDir: content/ko
 
-en:
-  languageCode: en-us
-# Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-contentDir: content/en
+  en:
+    languageCode: en-us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
