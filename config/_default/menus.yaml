@@ -14,7 +14,7 @@ main:
     parent: about
   - name: Skill
     url: skill
-    partent: about
+    parent: about
 
   #School
   - name: School
@@ -26,7 +26,7 @@ main:
     parent: school
   - name: Grade
     url: Grade
-    parant: school
+    parent: school
 
   #Activities
   - name: Activities
