@@ -4,9 +4,62 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: /
+  #About me
+  - name: About me
+    url: about
+    identifier: about
     weight: 10
-  - name: Resumé
-    url: about/
+  - name: Introduce
+    url: introduce
+    parent: about
+  - name: Skill
+    url: skill
+    partent: about
+
+  #School
+  - name: School
+    url: school
+    identifier: school
     weight: 20
+  - name: Subject
+    url: subject
+    parent: school
+  - name: Grade
+    url: Grade
+    parant: school
+
+  #Activities
+  - name: Activities
+    url: activities
+    identifier: activities
+    weight: 30
+  - name: Department
+    url: department
+    parent: activities
+  - name: Club
+    url: club
+    parent: activities
+  
+  #Project
+  - name: Project
+    url: project
+    identifier: project
+    weight: 40
+  - name: Solo
+    url: solo
+    parent: project
+  - name: Team
+    url: team
+    parent: project
+
+  #License
+  - name: License
+    url: license
+    identifier: license
+    weight: 50
+  - name: IT
+    url: it
+    parent: license
+  - name: Others
+    url: others
+    parent: license
