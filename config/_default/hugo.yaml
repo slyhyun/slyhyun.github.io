@@ -58,7 +58,6 @@ timeout: 600000
 taxonomies:
   tag: tags
   category: categories
-  
   author: authors
 markup:
   _merge: deep
