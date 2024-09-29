@@ -1,144 +1,77 @@
 ---
-# Leave the homepage title empty to use the site title
-title:
-date: 2024-09-30
-type: landing
+# Display name
+title: Nelson Bighetti
 
-sections:
-  - block: features
-    content:
-      title: <span style="font-size:70%">An Hyun </span>
-      text: <br><span style="font-size:125%">I am An Hyun</span> <br><br>
-        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
-  
-  - block: slider
-    content:
-      slides:
+# Full Name (for SEO)
+first_name: Nelson
+last_name: Bighetti
 
-      - title: <span style="font-size:70%">Web</span>
-        content: <span style="font-size:70%">Back-end, Front-end</span>
-        align: center
-        background:
-          image:
-            filename: web.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
+# Is this the primary user of the site?
+superuser: true
 
-      - title: <span style="font-size:70%">App</span>
-        content: <span style="font-size:70%">IOS, Android<span style="font-size:70%">
-        align: center
-        background:
-          image:
-            filename: app.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
+# Role/position
+role: Professor of Artificial Intelligence
 
-      - title: <span style="font-size:70%">AI</span>
-        content: <span style="font-size:70%">Vision, Natural language</span>
-        align: center
-        background:
-          image:
-            filename: sample_images_02.png
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
+# Organizations/Affiliations
+organizations:
+  - name: Stanford University
+    url: ''
 
-    design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
-      slide_width: '100px'
-      is_fullscreen: false
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 3000
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-  - block: features
-    id: features
-    content:
-      title: <span style="font-size:75%">Interests</span>
-      text: I am currently studying the following fields of interest.<br><br><br><br>
-      items:
-        - name: Artificial Intelligence (AI)
-          icon: code-branch
-          icon_pack: fas
-          description: <span style="font-size:90%">AI technologies such as machine learning, computer vision, and natural language processing.</span><br><br>
-        - name: Web Crawling
-          icon: globe
-          icon_pack: fas
-          description:  <span style="font-size:90%">Collecting and utilizing large amounts of data through web crawling.</span><br><br>
-        - name: Mathematics
-          icon: calculator
-          icon_pack: fas
-          description:  <span style="font-size:90%">Mathematical theories related to AI, such as linear algebra.</span><br><br>
-        - name: Backend Development 
-          icon: server
-          icon_pack: fas
-          description:  <span style="font-size:90%">Server construction and database utilization.</span><br><br>
-        - name: Frontend Development 
-          icon: laptop
-          icon_pack: fas
-          description:  <span style="font-size:90%">Building websites using tools like React.</span><br><br>
-        - name: App Development
-          icon: app-store-ios
-          icon_pack: fab
-          description:  <span style="font-size:90%">App development using Android Studio!</span><br><br>
+interests:
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 3
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-      background:
-        # Choose a color such as from https://html-color-codes.info
-        color: 'navy'
-        # Text color (true=light, false=dark, or remove for the dynamic theme color).
-        text_color_light: true
+education:
+  courses:
+    - course: PhD in Artificial Intelligence
+      institution: Stanford University
+      year: 2012
+    - course: MEng in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2009
+    - course: BSc in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2008
 
-  - block: collection
-    content:
-      title: Latest Team Project
-      subtitle:
-      text:
-      count: 3
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: team
-      design:
-        view: community/custom_card
-        columns: '2'
-      advanced:
-        css_style: "text-align: center;"
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:test@example.org'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/GeorgeCushen
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
-  - block: awards
-    content:
-      title: Awards
-      username: admin
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ''
 
+# Highlight the author in author lists? (true/false)
+highlight_name: false
 
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+  - Researchers
 ---
+
+Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
