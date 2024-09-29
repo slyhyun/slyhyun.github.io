@@ -99,13 +99,37 @@ sections:
           icon_pack: fab
           description:  <span style="font-size:90%">App development using Android Studio!</span><br><br>
 
-
- - block: collection
+  
+  - block: collection
     content:
-      title: Latest News
+      title: Latest Work
       subtitle:
       text:
-      count: 5
+      count: 3
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 
+      order: desc
+      page_type: work
+    design:
+      view: card
+      columns: '2'
+      background:
+        # Choose a color such as from https://html-color-codes.info
+        color: 'navy'
+        # Text color (true=light, false=dark, or remove for the dynamic theme color).
+        text_color_light: true
+
+  - block: collection
+    content:
+      title: Latest Team Project
+      subtitle:
+      text:
+      count: 3
       filters:
         author: ''
         category: ''
@@ -114,50 +138,12 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+      page_type: team
+      design:
+        view: community/custom_card
+        columns: '2'
+      advanced:
+        css_style: "text-align: center;"
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
 ---
