@@ -5,14 +5,11 @@ date: 2024-09-30
 type: landing
 
 sections:
-  - block: hero
+  - block: features
     content:
-      title: |
-        Hyun An
-      text: |
-        <br>
-        
-        I am a student studying computer science and am interested in web programming.
+      title: <span style="font-size:70%">An Hyum </span>
+      text: <br><span style="font-size:125%">I am An Hyun</span> <br><br>
+        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
   
   - block: slider
     content:
