@@ -1,19 +1,17 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "My Landing Page"  # 제목 필드를 비우지 말고 적절한 값으로 설정
+title: "My Landing Page"  # 제목 필드 추가
 date: 2024-09-30
 type: landing
 
 sections:
-  # 첫 번째 섹션: Features
   - block: features
     content:
       title: "<span style='font-size:70%'>An Hyun </span>"
       text: |
         <br><span style="font-size:125%">I am An Hyun</span> <br><br>
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
-  
-  # 두 번째 섹션: 슬라이더
+
   - block: slider
     content:
       slides:
@@ -60,7 +58,6 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 3000
 
-  # 세 번째 섹션: Features - Interests
   - block: features
     id: features
     content:
@@ -92,7 +89,6 @@ sections:
           icon_pack: fab
           description: "<span style='font-size:90%'>App development using Android Studio!</span><br><br>"
 
-  # 네 번째 섹션: Latest News
   - block: collection
     content:
       title: Latest News
@@ -117,7 +113,6 @@ sections:
         # Text color (true=light, false=dark, or remove for the dynamic theme color).
         text_color_light: true
 
-  # 다섯 번째 섹션: Latest Team Project
   - block: collection
     content:
       title: Latest Team Project
@@ -139,9 +134,9 @@ sections:
     advanced:
       css_style: "text-align: center;"
 
-  # 여섯 번째 섹션: Awards (주석 처리)
-  # 테마가 `awards`를 지원하지 않는다면 아래 블록을 주석 처리하거나 제거할 수 있습니다.
   # - block: awards
   #   content:
   #     title: Awards
   #     username: admin
+
+---
