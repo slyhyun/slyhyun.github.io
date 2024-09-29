@@ -20,6 +20,56 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Study CV, Web Service
 
+#interests:
+#- Artificial Intelligence
+#- Computational Linguistics
+#- Information Retrieval
+
+#education:
+#  courses:
+#  - course: PhD in Artificial Intelligence
+#    institution: Stanford University
+#    year: 2012
+#  - course: MEng in Artificial Intelligence
+#    institution: Massachusetts Institute of Technology
+#    year: 2009
+#  - course: BSc in Artificial Intelligence
+#    institution: Massachusetts Institute of Technology
+#    year: 2008
+
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto: wldnjs4685@gmail.com' # For a direct email link, use "mailto:test@example.org".
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/jiwon_1865/
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/jiwon887 
+  - icon: twitter
+    icon_pack: fab
+    name: SNS example
+    url: 'https://twitter.com/Twitter'
+  - icon: discord
+    icon_pack : fab
+    name: Discord
+    url: https://discord.gg/DQgpwGWm
+  - icon: youtube
+    icon_pack : fab
+    name: youtube
+    url: https://youtube.com/
+
+
+
+# Uncomment below for Github link
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/jiwon887
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -29,4 +79,42 @@ bio: Study CV, Web Service
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
+
+  - block: slider
+    content:
+      slides:
+
+      - title: <span style="font-size:70%">Web</span>
+        content: <span style="font-size:70%">Back-end, Front-end</span>
+        align: center
+        background:
+          image:
+            filename: web.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">App</span>
+        content: <span style="font-size:70%">IOS, Android<span style="font-size:70%">
+        align: center
+        background:
+          image:
+            filename: app.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">AI</span>
+        content: <span style="font-size:70%">Vision, Natural language</span>
+        align: center
+        background:
+          image:
+            filename: sample_images_02.png
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
 ---
