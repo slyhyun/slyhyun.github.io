@@ -40,7 +40,7 @@ languages :
     params : 
       description : "AnHyun Website"
 
-defaultContentLanguage: ko
+defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
