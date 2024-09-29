@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Computer Vision
+    - name: 컴퓨터비전
       tag: CV
-    - name: NLP
-      tag: NLP
+    - name: 프론트엔드
+      tag: FrontEnd
+    - name: 백엔드
+      tag: Backend 
 
 design:
   columns: '1'

@@ -1,73 +1,171 @@
 ---
-# Display name
-title: 안 현
+# Leave the homepage title empty to use the site title
+title:
+date: 2024-03-25
+type: landing
 
-# Is this the primary user of the site?
-superuser: true
+sections:
 
-# Role/position
-role: ''
+  - block: features
+    content:
+      title: <span style="font-size:70%">Medical AI & Computational Science (Macs) Lab </span>
+      text: <br><span style="font-size:125%">전북대학교 의료 AI 및 계산 과학 연구실 홈페이지에 오신 것을 환영합니다.</span> <br><br>
+        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
 
-# Status emoji
-status:
-  icon: ☕️
 
-# Organizations/Affiliations
-#organizations:
-#- name: 腾讯
-#  url: ""
+  - block: slider
+    content:
+      slides:
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+      - title: <span style="font-size:70%">Recruit</span>
+        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+        align: center
+        background:
+          image:
+            filename: recruitment.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+        link:
+          icon: user
+          icon_pack: fas
+          text: <span style="font-size:60%">Join Us</span>
+          text-color: '#000'
+          url: contact
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
+      - title: <span style="font-size:70%">AI</span>
+        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
+        align: center
+        background:
+          image:
+            filename: Ai.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+      - title: <span style="font-size:70%">Healthcare</span>
+        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+        align: center
+        background:
+          image:
+            filename: healthcare.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/wowchemy
-  - icon: instagram
-    icon_pack: fab
-    link: https://instagram.com/geocushen
-# Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
+      - title: <span style="font-size:70%">Mathematics</span>
+        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+        align: center
+        background:
+          image:
+            filename: mathematics.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+      - title: <span style="font-size:70%">Development</span>
+        content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
+        align: center
+        background:
+          image:
+            filename: development.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '350px'
+      slide_width: '100px'
+      is_fullscreen: false
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 3000
+
+
+  - block: features
+    id: features
+    content:
+      title: <span style="font-size:75%">Lab's Interests</span>
+      text: 저희 연구실에서는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
+      items:
+        - name: 인공지능(AI)
+          icon: code-branch
+          icon_pack: fas
+          description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
+        - name: 멀티모달(Multi-modality)
+          icon: globe
+          icon_pack: fas
+          description:  <span style="font-size:90%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
+        - name: 의료수학(Medical Math)
+          icon: calculator
+          icon_pack: fas
+          description:  <span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
+        - name: 컨텐츠 (Contents)
+          icon: comment-dots
+          icon_pack: fas
+          description:  <span style="font-size:90%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
+        - name: 개발 (Development)
+          icon: laptop
+          icon_pack: fas
+          description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
+        - name: 솔루션 (Solution)
+          icon: app-store-ios
+          icon_pack: fab
+          description:  <span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
+
+
+  - block: collection
+    content:
+      id: section-1
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - notification
+          - post
+          - event
+    design:
+      view: community/custom_card
+      columns: '2'
+
+  - block: collection
+    content:
+      title: Latest Publications
+      subtitle:
+      text:
+      count: 3
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: publication
+    design:
+      view: community/custom_card
+      columns: '2'
+    advanced:
+      css_style: "text-align: center;"
+
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./contact/" cta_text="Join team →" %}}
+    design:
+      columns: '1'
 ---
-
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
