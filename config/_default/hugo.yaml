@@ -26,7 +26,21 @@ cascade:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+languages : 
+  ko:
+    languageCode : ko
+    contentDir : content/ko
+    title : ""
+    params :
+      description : "안현 웹사이트"
+  en: 
+    languageCode : en
+    contentDir : content/en
+    title : ""
+    params : 
+      description : "AnHyun Website"
+
+defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
