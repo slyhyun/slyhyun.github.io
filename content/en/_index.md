@@ -119,57 +119,61 @@ sections:
 
   - block: collection
     content:
-      title: Latest Publications
+      id: section-1
+      title: Notifications & News
       subtitle:
       text:
       count: 3
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
       offset: 0
       order: desc
-      page_type: publication
+      filters:
+        folders:
+          - notification
+          - post
+          - event
     design:
       view: community/custom_card
       columns: '2'
-    advanced:
-      css_style: "text-align: center;"
 
   - block: collection
     content:
-      title: Skills
+      id: section-1
+      title: Notifications & News
       subtitle:
       text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
+      count: 3
       offset: 0
       order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
       filters:
         folders:
-          - publication
-        publication_type: 'article'
+          - notification
+          - post
+          - event
     design:
-      view: citation
-      columns: '1'
+      view: community/custom_card
+      columns: '2'
+
+#  - block: collection
+#    content:
+#      title: Latest Publications
+#      subtitle:
+#      text:
+#      count: 3
+#      filters:
+#        author: ''
+#        category: ''
+#        exclude_featured: false
+#        publication_type: ''
+#        tag: ''
+#      offset: 0
+#      order: desc
+#      page_type: publication
+#    design:
+#      view: community/custom_card
+#      columns: '2'
+#    advanced:
+#      css_style: "text-align: center;"
+
 
 #  - block: markdown
 #    content:
