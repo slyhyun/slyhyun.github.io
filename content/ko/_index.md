@@ -158,8 +158,12 @@ sections:
       title: Contact
       text: |-
         <br> <span style="font-size:95%">전북대학교 의료 AI 및 계산 수학 연구실 (Macs)의 학부연구생/석사 position에 관심 있으시면 아래로 연락주시면 감사드리겠습니다.</span> <br>
-      email: ksl(at)jbnu.ac.kr
-      phone: +82-63-270-2406
+      email: lipsul061722@jbnu.ac.kr
+      contact_links:
+        - icon: github
+          icon_pack: fab
+          name: slyhyun
+          link: https://github.com/slyhyun
       address:
         street: 전북대학교 공과대학 7호관 626호
         city: 전주시
