@@ -10,7 +10,7 @@ sections:
       title: |
         An Hyun
       image:
-        filename: welcome.jpg
+        filename: Anhyun.jpg
       text: |
         <br>
         
