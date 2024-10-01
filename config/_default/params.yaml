@@ -6,19 +6,18 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
   theme_night: minimal
+  theme_day: minimal
   font: native
   font_size: L
 
-# SEO
 
 marketing:
   seo:
-    site_type: Person
+    site_type: Organization
     local_business_type: ''
-    org_name: 'Slyhyun'
-    description: 'Student of JBNU'
+    org_name: 'MacsLAB'
+    description: 'MacsLAB in Jeonbuk National Univ.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
