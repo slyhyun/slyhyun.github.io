@@ -1,41 +1,77 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: An Hyun
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Hyun
+last_name: An
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Student of JBNU
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: JeonBuk University
+    url: 'https://www.jbnu.ac.kr/kor/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: studying web, computer science, algoritm
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Web Programing
+  - Back-end
+  - Spring Boot
+  
 
+  
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Student in Computer Science
+      institution: JeonBuk University
+      year: ~2026
+
+languages:
+  - language: Korean
+    proficiency: Native
+  - language: English
+    proficiency: Fluent
+
+skills:
+  #- name: Technical Skills
+  #  items:
+  #    - name: Java
+  #      description: ''
+  #      percent: 30
+  #      icon: devicon/java
+  #    - name: C++
+  #      description: ''
+  #      percent: 30
+  #      icon: devicon/C
+
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Game
+        description: ''
+        percent: 80
+        icon: video_game
+      - name: Exercise
+        description: ''
+        percent: 40
+        icon: person_running
+      - name: Music
+        description: ''
+        percent: 80
+        icon: musical_notes
+
+# Personal goals
+goals:
+  - Web back-end programmer
+  - Learn advanced AI techniques
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,16 +80,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 'lipsul061722@jbnu.ac.kr'
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/slyhyun
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/slyhyun_
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,9 +102,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Student
+
+
 ---
-
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
