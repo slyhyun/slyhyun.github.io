@@ -25,11 +25,11 @@ main:
     weight: 20
   - name: Course
     url: course
-    parent: school
+    parent: academic
     weight: 10
   - name: Grade
     url: grade
-    parent: school
+    parent: academic
     weight: 20
 
   # Activities
