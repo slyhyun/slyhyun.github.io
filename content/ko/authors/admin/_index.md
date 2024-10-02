@@ -40,7 +40,7 @@ languages:
     proficiency: 유창
 
 skills:
-  - name: 기술 스택
+  - name: 프로그래밍 언어
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
@@ -56,6 +56,17 @@ skills:
         description: ''
         percent: 100
         icon: musical_notes
+  - name: 프레임워크
+    color: '#eeac02'
+    color_border: '#f0bf23'
+      - name: 노드JS
+        description: ''
+        percent: 40
+        icon: person_running
+      - name: 리액트
+        description: ''
+        percent: 60
+        icon: person_running
       - name: 스프링부트
         description: ''
         percent: 100
