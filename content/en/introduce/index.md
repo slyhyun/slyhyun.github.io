@@ -22,5 +22,13 @@ sections:
       show_languages: true
       show_certifications: true
       show_goals: true  
+  # Markdown 텍스트 블록을 추가하여 문구 출력
+  - block: markdown
+    content:
+      text: |
+        <p style="font-size: 0.8em; text-align: center; color: #555;">
+          details - <strong>click the name</strong>
+        </p>
+    design:
+      columns: '1'
 ---
-details - click the name

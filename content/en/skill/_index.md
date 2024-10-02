@@ -6,6 +6,6 @@ type: landing
 sections:
   - block: skills
     content:
-      title: tech stack
+      title: skill
       username: admin
 ---

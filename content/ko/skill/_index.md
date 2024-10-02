@@ -1,5 +1,5 @@
 ---
-title: Skill
+title: 기술 스택
 date: 2023-10-24
 type: landing
 
