@@ -13,51 +13,43 @@ sections:
         filename: Anhyun.jpg
       text: |
         <br>
-        
-       전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.
+        전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.
   
   - block: slider
     content:
       slides:
-
-      - title: <span style="font-size:70%">coding</span>
-        content: <span style="font-size:70%">study code</span>
-        align: center
-        background:
-          image:
-            filename: code1.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-        #link:
-        #  icon: user
-        #  icon_pack: fas
-        #  text: <span style="font-size:60%">Join Us</span>
-        #  text-color: '#000'
-        #  url: contact
-
-      - title: <span style="font-size:70%">AI</span>
-        content: <span style="font-size:70%">learning ai!<span style="font-size:70%">
-        align: center
-        background:
-          image:
-            filename: code2.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:70%">Cat</span>
-        content: <span style="font-size:70%">Look at the cute cat</span>
-        align: center
-        background:
-          image:
-            filename: catimage.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
+        - title: <span style="font-size:70%">coding</span>
+          content: <span style="font-size:70%">study code</span>
+          align: center
+          background:
+            image:
+              filename: code1.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: '#000'
+        
+        - title: <span style="font-size:70%">AI</span>
+          content: <span style="font-size:70%">learning ai!</span>
+          align: center
+          background:
+            image:
+              filename: code2.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: '#000'
+          
+        - title: <span style="font-size:70%">Cat</span>
+          content: <span style="font-size:70%">Look at the cute cat</span>
+          align: center
+          background:
+            image:
+              filename: catimage.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: '#000'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
@@ -149,30 +141,30 @@ sections:
       view: community/custom_showcase
       columns: '2'
 
-- block: contact
-  content:
-    title: 연락처
-    contact_links:
-      - icon: instagram
-        icon_pack: fab
-        name: slyhyun_
-        link: https://www.instagram.com/slyhyun_
-      - icon: github
-        icon_pack: fab
-        name: slyhyun
-        link: https://github.com/slyhyun
-    address:
+  - block: contact  # contact 블록의 '-' 기호를 들여쓰기를 통해 해결
+    content:
+      title: 연락처
+      contact_links:
+        - icon: instagram
+          icon_pack: fab
+          name: slyhyun_
+          link: https://www.instagram.com/slyhyun_
+        - icon: github
+          icon_pack: fab
+          name: slyhyun
+          link: https://github.com/slyhyun
+      address:
         street: 전북대학교 참빛 1관, 524호
         city: 전주시
         region: 전라북도
         postcode: '54896'
         country: 대한민국
         country_code: KO
-    coordinates:
-      latitude: '35.850785'
-      longitude: '127.126310'
-    directions: 
-    autolink: true
-  design:
-    columns: '3'
+      coordinates:
+        latitude: '35.850785'
+        longitude: '127.126310'
+      directions: 
+      autolink: true
+    design:
+      columns: '3'
 ---

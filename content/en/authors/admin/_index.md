@@ -105,7 +105,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'lipsul061722@jbnu.ac.kr'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
