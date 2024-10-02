@@ -151,13 +151,16 @@ sections:
 
 - block: contact
   content:
-    title: 연락처
+    title: contact
     contact_links:
+      - icon: instagram
+        icon_pack: fab
+        name: Instagram
+        link: https://www.instagram.com/slyhyun_
       - icon: github
         icon_pack: fab
         name: slyhyun
         link: https://github.com/slyhyun
-    email: lipsul061722@jbnu.ac.kr
     address:
         street: JBNU Chambit Hall 1, Room 524
         city: 전주시

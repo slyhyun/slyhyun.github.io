@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-        전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.
+       전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.
   
   - block: slider
     content:
@@ -153,24 +153,26 @@ sections:
   content:
     title: 연락처
     contact_links:
+      - icon: instagram
+        icon_pack: fab
+        name: Instagram
+        link: https://www.instagram.com/slyhyun_
       - icon: github
         icon_pack: fab
         name: slyhyun
         link: https://github.com/slyhyun
-    email: lipsul061722@jbnu.ac.kr
     address:
-      street: 전북대학교 참빛 1관 524호
-      city: 전주시
-      region: 전라북도
-      postcode: '54896'
-      country: 대한민국
-      country_code: KO
-    coordinates:
-      latitude: '35.84601324617979'
-      longitude: '127.13444961966684'
-    directions: 
-    autolink: true
-  design:
-    columns: '3'
-    class: contact-container
+        street: JBNU Chambit Hall 1, Room 524
+        city: 전주시
+        region: 전라북도
+        postcode: '54896'
+        country: 대한민국
+        country_code: KO
+      coordinates:
+        latitude: '35.84601324617979'
+        longitude: '127.13444961966684'
+      directions: 
+      autolink: true
+    design:
+      columns: '3'
 ---
