@@ -1,5 +1,5 @@
 ---
-title: Grade
+title: 동아리 
 
 # Listing view
 view: community/custom_card

@@ -1,5 +1,5 @@
 ---
-title: Subject
+title: 수강 과목
 
 # Listing view
 view: community/custom_compact

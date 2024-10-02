@@ -1,8 +1,8 @@
 ---
-title: 성적
+title: 학부
 
 # Listing view
-view: community/custom_compact
+view: community/custom_card
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

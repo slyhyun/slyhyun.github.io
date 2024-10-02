@@ -21,8 +21,8 @@ main:
     url: school
     identifier: school
     weight: 20
-  - name: Subject
-    url: subject
+  - name: Course
+    url: course
     parent: school
   - name: Grade
     url: grade
@@ -45,21 +45,21 @@ main:
     url: project
     identifier: project
     weight: 40
-  - name: Solo
-    url: solo
+  - name: Personal
+    url: personal
     parent: project
   - name: Team
     url: team
     parent: project
 
-  #License
-  - name: License
-    url: license
-    identifier: license
+  #Plan
+  - name: Plan
+    url: plan
+    identifier: plan
     weight: 50
-  - name: IT
-    url: it
-    parent: license
-  - name: Others
-    url: others
-    parent: license
+  - name: In-school
+    url: in-school
+    parent: plan
+  - name: Extracurricular
+    url: extracurricular
+    parent: plan
