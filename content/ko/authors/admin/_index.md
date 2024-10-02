@@ -56,6 +56,10 @@ skills:
         description: ''
         percent: 100
         icon: musical_notes
+  - name: 프레임워크
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
       - name: 노드JS
         description: ''
         percent: 40
