@@ -102,7 +102,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: Skills
+      title: 활동
       subtitle:
       text:
       count: 3
@@ -110,9 +110,8 @@ sections:
       order: desc
       filters:
         folders:
-          - notification
-          - post
-          - event
+          - club
+          - department
     design:
       view: community/custom_showcase
       columns: '2'
@@ -120,7 +119,7 @@ sections:
   - block: collection
     content:
       id: section-2
-      title: Lastest Activities
+      title: 개인 프로젝트
       subtitle:
       text:
       count: 3
@@ -128,9 +127,7 @@ sections:
       order: desc
       filters:
         folders:
-          - notification
-          - post
-          - event
+          - solo
     design:
       view: community/custom_showcase
       columns: '2'
@@ -138,7 +135,7 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: Lastest Project
+      title: 팀 프로젝트
       subtitle:
       text:
       count: 3
@@ -146,9 +143,7 @@ sections:
       order: desc
       filters:
         folders:
-          - notification
-          - post
-          - event
+          - team
     design:
       view: community/custom_showcase
       columns: '2'

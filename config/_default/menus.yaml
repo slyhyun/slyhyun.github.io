@@ -25,7 +25,7 @@ main:
     url: subject
     parent: school
   - name: Grade
-    url: Grade
+    url: grade
     parent: school
 
   #Activities
