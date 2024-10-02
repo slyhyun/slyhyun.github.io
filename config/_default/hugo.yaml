@@ -25,7 +25,7 @@ languages :
     params : 
       description : "AnHyun Website"
 
-defaultContentLanguage: ko-kr
+defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
