@@ -26,9 +26,9 @@ sections:
   - block: markdown
     content:
       text: |
+        <p style="color: #ffffff; text-align: center;">
           details - <strong>click the name</strong>
+        </p>
     design:
       columns: '1'
-      style: "color: #ffffff;"
-      text-align: "center;"
 ---
