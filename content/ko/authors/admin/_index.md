@@ -40,38 +40,32 @@ languages:
     proficiency: 유창
 
 skills:
-  - name: 프로그래밍 언어
+  - name: 개발 언어
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: 파이썬
         description: ''
         percent: 60
-        icon: video_game
       - name: C/C++
         description: ''
         percent: 80
-        icon: person_running
       - name: 자바
         description: ''
-        percent: 100
-        icon: musical_notes
+        percent: 80
   - name: 프레임워크
-    color: '#eeac02'
+    color: '#28a745'
     color_border: '#f0bf23'
     items:
       - name: 노드JS
         description: ''
         percent: 40
-        icon: person_running
       - name: 리액트
         description: ''
         percent: 60
-        icon: person_running
       - name: 스프링부트
         description: ''
-        percent: 100
-        icon: person_running
+        percent: 80
 
 # Personal goals
 goals:

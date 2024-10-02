@@ -52,26 +52,32 @@ skills:
   #      icon: devicon/C
 
 skills:
-  - name: tech stack
+  - name: language
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Python
         description: ''
         percent: 60
-        icon: video_game
       - name: C/C++
         description: ''
         percent: 80
-        icon: person_running
       - name: Java
         description: ''
-        percent: 100
-        icon: musical_notes
+        percent: 80
+  - name: framework
+    color: '#28a745'
+    color_border: '#f0bf23'
+    items:
+      - name: node.js
+        description: ''
+        percent: 40
+      - name: React
+        description: ''
+        percent: 60
       - name: Spring Boot
         description: ''
-        percent: 100
-        icon: person_running
+        percent: 80
 
 # Personal goals
 goals:
