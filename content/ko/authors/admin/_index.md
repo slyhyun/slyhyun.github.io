@@ -55,7 +55,7 @@ skills:
         percent: 80
   - name: 프레임워크
     color: '#28a745'
-    color_border: '#f0bf23'
+    color_border: '#2ecc71'
     items:
       - name: 노드JS
         description: ''

@@ -67,7 +67,7 @@ skills:
         percent: 80
   - name: framework
     color: '#28a745'
-    color_border: '#f0bf23'
+    color_border: '#2ecc71'
     items:
       - name: node.js
         description: ''
