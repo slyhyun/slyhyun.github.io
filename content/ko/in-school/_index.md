@@ -1,8 +1,8 @@
 ---
-title: 동아리 활동
+title: 교내활동 계획
 
 # Listing view
-view: community/custom_card
+view: community/custom_compact
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

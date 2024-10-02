@@ -1,34 +1,38 @@
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#   desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
 
 main:
-  #About me
-  - name: About me
-    url: about
-    identifier: about
-    weight: 10
+  # About me
   - name: Introduce
     url: introduce
-    parent: about
+    identifier: introduce
+    weight: 10
+  - name: About Me
+    url: about-me
+    parent: introduce
+    weight: 10
   - name: Skill
     url: skill
-    parent: about
+    parent: introduce
+    weight: 20
 
-  #School
-  - name: School
-    url: school
-    identifier: school
+  # School
+  - name: Academic
+    url: academic
+    identifier: academic
     weight: 20
   - name: Course
     url: course
     parent: school
+    weight: 10
   - name: Grade
     url: grade
     parent: school
+    weight: 20
 
-  #Activities
+  # Activities
   - name: Activities
     url: activities
     identifier: activities
@@ -36,11 +40,13 @@ main:
   - name: Department
     url: department
     parent: activities
+    weight: 10
   - name: Club
     url: club
     parent: activities
-  
-  #Project
+    weight: 20
+
+  # Project
   - name: Project
     url: project
     identifier: project
@@ -48,18 +54,22 @@ main:
   - name: Personal
     url: personal
     parent: project
+    weight: 10
   - name: Team
     url: team
     parent: project
+    weight: 20
 
-  #Plan
+  # Plan
   - name: Plan
     url: plan
     identifier: plan
     weight: 50
-  - name: In-school
+  - name: In School
     url: in-school
     parent: plan
+    weight: 10
   - name: Extracurricular
     url: extracurricular
     parent: plan
+    weight: 20

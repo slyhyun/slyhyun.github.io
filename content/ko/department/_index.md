@@ -1,5 +1,5 @@
 ---
-title: 학부
+title: 학부 활동
 
 # Listing view
 view: community/custom_card
