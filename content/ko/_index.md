@@ -102,6 +102,22 @@ sections:
   - block: collection
     content:
       id: section-1
+      title: 학사정보
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - subject
+    design:
+      view: community/custom_compact
+      columns: '2'
+
+  - block: collection
+    content:
+      id: section-2
       title: 활동
       subtitle:
       text:
@@ -113,13 +129,13 @@ sections:
           - club
           - department
     design:
-      view: community/custom_showcase
+      view: community/custom_card
       columns: '2'
 
   - block: collection
     content:
-      id: section-2
-      title: 개인 프로젝트
+      id: section-3
+      title: 프로젝트
       subtitle:
       text:
       count: 3
@@ -128,21 +144,6 @@ sections:
       filters:
         folders:
           - solo
-    design:
-      view: community/custom_showcase
-      columns: '2'
-
-  - block: collection
-    content:
-      id: section-3
-      title: 팀 프로젝트
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      filters:
-        folders:
           - team
     design:
       view: community/custom_showcase
