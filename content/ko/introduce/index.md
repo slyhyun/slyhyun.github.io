@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: people
     content:
-      title: 세부사항 - 이름을 클릭하세요
+      title: 안현
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
@@ -23,3 +23,4 @@ sections:
       show_certifications: true
       show_goals: true  
 ---
+세부사항 - 이름을 클릭하세요

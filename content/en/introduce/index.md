@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: people
     content:
-      title: details - click the name
+      title: An Hyun
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
@@ -23,3 +23,4 @@ sections:
       show_certifications: true
       show_goals: true  
 ---
+details - click the name
