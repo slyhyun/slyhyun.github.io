@@ -33,17 +33,17 @@ main:
     weight: 20
 
   # Activities
-  - name: Activities
-    url: activities
-    identifier: activities
+  - name: Activity
+    url: activity
+    identifier: activity
     weight: 30
   - name: Department
     url: department
-    parent: activities
+    parent: activity
     weight: 10
   - name: Club
     url: club
-    parent: activities
+    parent: activity
     weight: 20
 
   # Project

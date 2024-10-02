@@ -102,7 +102,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: Skills
+      title: Academic
       subtitle:
       text:
       count: 3
@@ -110,17 +110,15 @@ sections:
       order: desc
       filters:
         folders:
-          - notification
-          - post
-          - event
+          - course
     design:
-      view: community/custom_card
+      view: community/custom_compact
       columns: '2'
 
   - block: collection
     content:
       id: section-2
-      title: Lastest Activities
+      title: Activity
       subtitle:
       text:
       count: 3
@@ -128,9 +126,8 @@ sections:
       order: desc
       filters:
         folders:
-          - notification
-          - post
-          - event
+          - department
+          - club
     design:
       view: community/custom_card
       columns: '2'
@@ -138,7 +135,7 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: Lastest Project
+      title: Project
       subtitle:
       text:
       count: 3
@@ -146,18 +143,15 @@ sections:
       order: desc
       filters:
         folders:
-          - notification
-          - post
-          - event
+          - personal
+          - team
     design:
-      view: community/custom_card
+      view: community/custom_showcase
       columns: '2'
 
   - block: contact
     content:
       title: Contact
-      text: |-
-        <br> <span style="font-size:95%">전북대학교 의료 AI 및 계산 수학 연구실 (Macs)의 학부연구생/석사 position에 관심 있으시면 아래로 연락주시면 감사드리겠습니다.</span> <br>
       email: lipsul061722@jbnu.ac.kr
       contact_links:
         - icon: github
@@ -165,7 +159,7 @@ sections:
           name: slyhyun
           link: https://github.com/slyhyun
       address:
-        street: 전북대학교 공과대학 7호관 626호
+        street: JBNU Chambit Hall 1, Room 524
         city: 전주시
         region: 전라북도
         postcode: '54896'
