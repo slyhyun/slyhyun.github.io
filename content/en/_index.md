@@ -155,7 +155,7 @@ sections:
       contact_links:
       - icon: instagram
         icon_pack: fab
-        name: Instagram
+        name: slyhyun_
         link: https://www.instagram.com/slyhyun_
       - icon: github
         icon_pack: fab
