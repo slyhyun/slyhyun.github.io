@@ -152,12 +152,12 @@ sections:
   - block: contact
     content:
       title: 연락처
-      email: lipsul061722@jbnu.ac.kr
       contact_links:
         - icon: github
           icon_pack: fab
           name: slyhyun
           link: https://github.com/slyhyun
+      email: lipsul061722@jbnu.ac.kr
       address:
         street: 전북대학교 참빛 1관 524호
         city: 전주시
@@ -169,54 +169,6 @@ sections:
         latitude: '35.84601324617979'
         longitude: '127.13444961966684'
       directions: 
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
-    
-      # Automatically link email and phone or display as text?
       autolink: true
-    
-      # # Email form provider
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id:
-      #   netlify:
-      #     # Enable CAPTCHA challenge to reduce spam?
-      #     captcha: true
     design:
       columns: '3'
-
-#  - block: collection
-#    content:
-#      title: Latest Publications
-#      subtitle:
-#      text:
-#      count: 3
-#      filters:
-#        author: ''
-#        category: ''
-#        exclude_featured: false
-#        publication_type: ''
-#        tag: ''
-#      offset: 0
-#      order: desc
-#      page_type: publication
-#    design:
-#      view: community/custom_card
-#      columns: '2'
-#    advanced:
-#      css_style: "text-align: center;"
-
-
-#  - block: markdown
-#    content:
-#      title:
-#      subtitle:
-#      text: |
-#        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-#    design:
-#      columns: '1'
----
