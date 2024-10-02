@@ -26,7 +26,7 @@ sections:
   - block: markdown
     content:
       text: |
-        <p style="font-size: 0.8em; text-align: center; color: #555;">
+        <p style="font-size: 0.8em; text-align: center; color: #ffffff;">
           세부사항 - <strong>이름을 클릭하세요</strong>
         </p>
     design:
