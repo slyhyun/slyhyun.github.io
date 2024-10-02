@@ -21,14 +21,13 @@ sections:
       show_education: true
       show_languages: true
       show_certifications: true
-      show_goals: true  
-  # Markdown 텍스트 블록을 추가하여 문구 출력
+      show_goals: true
+
   - block: markdown
     content:
       text: |
-        <p style="font-size: 0.8em; text-align: center; color: #ffffff;">
           세부사항 - <strong>이름을 클릭하세요</strong>
-        </p>
     design:
       columns: '1'
+      style: "color: #ffffff;"  # 전체 블록의 색상을 하얀색으로 설정
 ---
