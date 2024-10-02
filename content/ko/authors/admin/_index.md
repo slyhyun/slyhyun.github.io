@@ -1,43 +1,43 @@
 ---
 # Display name
-title: An Hyun
+title: 안현
 
 # Full Name (for SEO)
-first_name: Hyun
-last_name: An
+first_name: 현
+last_name: 안
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Student of JBNU
+role: 전북대학교 컴퓨터공학부 
 
 # Organizations/Affiliations
 organizations:
-  - name: JeonBuk University
+  - name: 전북대학교
     url: 'https://www.jbnu.ac.kr/kor/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: studying web, computer science, algoritm
+bio: 웹개발, 인공지능, 백엔드
 
 interests:
-  - Web Programing
-  - Back-end
-  - Spring Boot
+  - 웹개발
+  - 백엔드
+  - 스프링부트
   
 
   
 education:
   courses:
-    - course: Student in Computer Science
-      institution: JeonBuk University
+    - course: 컴퓨터공학부 학생
+      institution: 전북대학교
       year: ~2026
 
 languages:
-  - language: Korean
-    proficiency: Native
-  - language: English
-    proficiency: Fluent
+  - language: 한글
+    proficiency: 현지인
+  - language: 영어
+    proficiency: 유창
 
 skills:
   #- name: Technical Skills
@@ -51,27 +51,27 @@ skills:
   #      percent: 30
   #      icon: devicon/C
 
-  - name: Hobbies
+  - name: 취미
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Game
+      - name: 게임
         description: ''
         percent: 80
         icon: video_game
-      - name: Exercise
+      - name: 운동
         description: ''
         percent: 40
         icon: person_running
-      - name: Music
+      - name: 음악
         description: ''
         percent: 80
         icon: musical_notes
 
 # Personal goals
 goals:
-  - Web back-end programmer
-  - Learn advanced AI techniques
+  - 백엔드 웹개발자
+  - 인공지능 기술 공부
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

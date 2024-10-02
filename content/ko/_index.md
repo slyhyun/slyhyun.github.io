@@ -8,13 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        An Hyun
+        안현
       image:
         filename: Anhyun.jpg
       text: |
         <br>
         
-        I am a student studying computer science and am interested in web programming.
+        전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.
   
   - block: slider
     content:

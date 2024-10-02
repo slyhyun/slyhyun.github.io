@@ -1,5 +1,5 @@
 ---
-title:
+title: 소개
 date: 2022-10-24
 
 type: landing
@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: people
     content:
-      title: details - click the name
+      title: 세부사항 - 이름을 클릭하세요
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
