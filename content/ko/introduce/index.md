@@ -1,108 +1,25 @@
 ---
-# Display name
-title: An Hyun
+title:
+date: 2022-10-24
 
-# Full Name (for SEO)
-first_name: Hyun
-last_name: An
+type: landing
 
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position
-role: Student of JBNU
-
-# Organizations/Affiliations
-organizations:
-  - name: JeonBuk University
-    url: 'https://www.jbnu.ac.kr/kor/'
-
-# Short bio (displayed in user profile at end of posts)
-bio: studying web, computer science, algoritm
-
-interests:
-  - Web Programing
-  - Back-end
-  - Spring Boot
-  
-
-  
-education:
-  courses:
-    - course: Student in Computer Science
-      institution: JeonBuk University
-      year: ~2026
-
-languages:
-  - language: Korean
-    proficiency: Native
-  - language: English
-    proficiency: Fluent
-
-skills:
-  #- name: Technical Skills
-  #  items:
-  #    - name: Java
-  #      description: ''
-  #      percent: 30
-  #      icon: devicon/java
-  #    - name: C++
-  #      description: ''
-  #      percent: 30
-  #      icon: devicon/C
-
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Game
-        description: ''
-        percent: 80
-        icon: video_game
-      - name: Exercise
-        description: ''
-        percent: 40
-        icon: person_running
-      - name: Music
-        description: ''
-        percent: 80
-        icon: musical_notes
-
-# Personal goals
-goals:
-  - Web back-end programmer
-  - Learn advanced AI techniques
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'lipsul061722@jbnu.ac.kr'
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/slyhyun
-  - icon: instagram
-    icon_pack: fab
-    link: https://www.instagram.com/slyhyun_
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Student
-
-
+sections:
+  - block: people
+    content:
+      title:
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Student
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      show_interests: true
+      show_role: true
+      show_social: true
+      show_education: true
+      show_languages: true
+      show_certifications: true
+      show_goals: true  
 ---
