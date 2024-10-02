@@ -91,7 +91,7 @@ goals:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'lipsul061722@jbnu.ac.kr'
+    link: 'mailto:lipsul061722@jbnu.ac.kr'
   - icon: github
     icon_pack: fab
     link: https://github.com/slyhyun
@@ -105,15 +105,15 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'lipsul061722@jbnu.ac.kr'
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Student
+  - admin
 
 
 ---
