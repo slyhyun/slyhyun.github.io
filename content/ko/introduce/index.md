@@ -29,5 +29,6 @@ sections:
           세부사항 - <strong>이름을 클릭하세요</strong>
     design:
       columns: '1'
-      style: "color: #ffffff;"  # 전체 블록의 색상을 하얀색으로 설정
+      style: "color: #ffffff;"
+      text-align: "center;"
 ---
