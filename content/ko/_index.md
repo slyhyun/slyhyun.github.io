@@ -114,7 +114,7 @@ sections:
           - post
           - event
     design:
-      view: community/custom_card
+      view: community/custom_showcase
       columns: '2'
 
   - block: collection
@@ -132,7 +132,7 @@ sections:
           - post
           - event
     design:
-      view: community/custom_card
+      view: community/custom_showcase
       columns: '2'
 
   - block: collection
@@ -150,7 +150,7 @@ sections:
           - post
           - event
     design:
-      view: community/custom_card
+      view: community/custom_showcase
       columns: '2'
 
   - block: contact
