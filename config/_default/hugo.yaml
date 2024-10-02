@@ -26,8 +26,8 @@ languages :
       description : "AnHyun Website"
 
 defaultContentLanguage: ko
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################
@@ -90,4 +90,3 @@ sitemap:
 minify:
   _merge: deep
 
-  
