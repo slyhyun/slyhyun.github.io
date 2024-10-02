@@ -51,22 +51,27 @@ skills:
   #      percent: 30
   #      icon: devicon/C
 
-  - name: Hobbies
+skills:
+  - name: tech stack
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Game
+      - name: Python
         description: ''
-        percent: 80
+        percent: 60
         icon: video_game
-      - name: Exercise
-        description: ''
-        percent: 40
-        icon: person_running
-      - name: Music
+      - name: C/C++
         description: ''
         percent: 80
+        icon: person_running
+      - name: Java
+        description: ''
+        percent: 100
         icon: musical_notes
+      - name: Spring Boot
+        description: ''
+        percent: 100
+        icon: person_running
 
 # Personal goals
 goals:

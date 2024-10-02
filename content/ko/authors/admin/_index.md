@@ -40,33 +40,26 @@ languages:
     proficiency: 유창
 
 skills:
-  #- name: Technical Skills
-  #  items:
-  #    - name: Java
-  #      description: ''
-  #      percent: 30
-  #      icon: devicon/java
-  #    - name: C++
-  #      description: ''
-  #      percent: 30
-  #      icon: devicon/C
-
-  - name: 취미
+  - name: 기술 스택
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: 게임
+      - name: 파이썬
         description: ''
-        percent: 80
+        percent: 60
         icon: video_game
-      - name: 운동
-        description: ''
-        percent: 40
-        icon: person_running
-      - name: 음악
+      - name: C/C++
         description: ''
         percent: 80
+        icon: person_running
+      - name: 자바
+        description: ''
+        percent: 100
         icon: musical_notes
+      - name: 스프링부트
+        description: ''
+        percent: 100
+        icon: person_running
 
 # Personal goals
 goals:
