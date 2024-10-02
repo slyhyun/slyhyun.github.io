@@ -15,13 +15,13 @@ languages :
   ko:
     languageCode : ko
     contentDir : content/ko
-    title : ""
+    title : "Slyhyun"
     params :
       description : "안현 웹사이트"
   en: 
     languageCode : en
     contentDir : content/en
-    title : ""
+    title : "Slyhyun"
     params : 
       description : "AnHyun Website"
 
@@ -43,29 +43,6 @@ cascade:
     commentable: true
     show_related: true
     show_breadcrumb: true
-
-############################
-## LANGUAGE
-############################
-
-languages : 
-  en: 
-    languageCode : en-us
-    contentDir : content/en
-    title : ""
-    params : 
-      description : "An Hyun Website"
-  ko:
-    languageCode : ko
-    contentDir : content/ko
-    title : ""
-    params :
-      description : "안현 웹사이트"
-
-defaultContentLanguage: en
-hasCJKLanguage: true
-defaultContentLanguageInSubdir: true
-removePathAccents: true
 
 ############################
 ## ADVANCED
