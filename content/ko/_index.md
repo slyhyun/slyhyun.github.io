@@ -153,14 +153,11 @@ sections:
   content:
     title: 연락처
     contact_links:
-      - icon: instagram
-        icon_pack: fab
-        name: slyhyun_
-        link: https://www.instagram.com/slyhyun_
       - icon: github
         icon_pack: fab
         name: slyhyun
         link: https://github.com/slyhyun
+    email: lipsul061722@jbnu.ac.kr
     address:
       street: 전북대학교 참빛 1관 524호
       city: 전주시
@@ -175,4 +172,5 @@ sections:
     autolink: true
   design:
     columns: '3'
+    class: contact-container
 ---

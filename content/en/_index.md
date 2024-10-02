@@ -149,19 +149,16 @@ sections:
       view: community/custom_showcase
       columns: '2'
 
-  - block: contact
-    content:
-      title: Contact
-      contact_links:
-      - icon: instagram
-        icon_pack: fab
-        name: slyhyun_
-        link: https://www.instagram.com/slyhyun_
+- block: contact
+  content:
+    title: 연락처
+    contact_links:
       - icon: github
         icon_pack: fab
         name: slyhyun
         link: https://github.com/slyhyun
-      address:
+    email: lipsul061722@jbnu.ac.kr
+    address:
         street: JBNU Chambit Hall 1, Room 524
         city: 전주시
         region: 전라북도
