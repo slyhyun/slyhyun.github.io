@@ -19,7 +19,7 @@ sections:
     content:
       slides:
         - title: <span style="font-size:70%">coding</span>
-          content: <span style="font-size:70%">study code</span>
+          content: <span style="font-size:70%">웹개발</span>
           align: center
           background:
             image:
@@ -30,7 +30,7 @@ sections:
             color: '#000'
         
         - title: <span style="font-size:70%">AI</span>
-          content: <span style="font-size:70%">learning ai!</span>
+          content: <span style="font-size:70%">백엔드</span>
           align: center
           background:
             image:
@@ -41,7 +41,7 @@ sections:
             color: '#000'
           
         - title: <span style="font-size:70%">Cat</span>
-          content: <span style="font-size:70%">Look at the cute cat</span>
+          content: <span style="font-size:70%">인공지능</span>
           align: center
           background:
             image:
