@@ -10,7 +10,7 @@ sections:
       title: |
         An Hyun
       image:
-        filename: Anhyun.jpg
+        filename: AnHyun.jpg
       text: |
         <br>
         I am a student studying computer science and am interested in web programming.
