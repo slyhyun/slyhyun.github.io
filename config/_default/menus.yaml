@@ -9,7 +9,7 @@ main:
     url: introduce
     identifier: introduce
     weight: 10
-  - name: About Me
+  - name: Profile
     url: author/안현
     parent: introduce
     weight: 10
@@ -17,7 +17,7 @@ main:
     url: skill
     parent: introduce
     weight: 20
-
+    
   # School
   - name: Academic
     url: academic
