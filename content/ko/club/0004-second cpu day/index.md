@@ -1,5 +1,5 @@
 ---
-title: 2023년 2학기 CPU DAY
+title: 2024년 1학기 CPU DAY
 date: 2024-03-02
 ---
 
