@@ -1,0 +1,75 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#   desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  # About me
+  - name: 소개
+    url: introduce
+    identifier: introduce
+    weight: 10
+  - name: 프로필
+    url: author/안현
+    parent: introduce
+    weight: 10
+  - name: 기술 스택
+    url: skill
+    parent: introduce
+    weight: 20
+    
+  # School
+  - name: 학업
+    url: academic
+    identifier: academic
+    weight: 20
+  - name: 교과
+    url: course
+    parent: academic
+    weight: 10
+  - name: 성적
+    url: grade
+    parent: academic
+    weight: 20
+
+  # Activities
+  - name: 활동
+    url: activity
+    identifier: activity
+    weight: 30
+  - name: 학부
+    url: department
+    parent: activity
+    weight: 10
+  - name: 동아리
+    url: club
+    parent: activity
+    weight: 20
+
+  # Project
+  - name: 프로젝트
+    url: project
+    identifier: project
+    weight: 40
+  - name: 개인
+    url: personal
+    parent: project
+    weight: 10
+  - name: 팀
+    url: team
+    parent: project
+    weight: 20
+
+  # Plan
+  - name: 계획
+    url: plan
+    identifier: plan
+    weight: 50
+  - name: 교내활동
+    url: in-school
+    parent: plan
+    weight: 10
+  - name: 대외활동
+    url: extracurricular
+    parent: plan
+    weight: 20
