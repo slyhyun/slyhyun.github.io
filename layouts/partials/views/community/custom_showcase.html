@@ -23,12 +23,17 @@
 {{ end }}
 
 {{ $order := "" }}
-{{ if isset $widget "Params" }}
-  {{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
+
+{{/* 변경된 부분 시작: $widget.Params가 있는지 확인 후 접근 */}}
+{{ with $widget.Params }} 
+  {{/* $widget.Params.design.flip_alt_rows 속성을 안전하게 접근 */}}
+  {{ if and (.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
     {{ $order = "order-md-2" }}
   {{ end }}
-{{ else if and ($widget.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
-  {{ $order = "order-md-2" }}
+{{ else }}
+  {{ if and ($widget.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
+    {{ $order = "order-md-2" }}
+  {{ end }}
 {{ end }}
 
 

@@ -1,8 +1,4 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
+# hugo.yaml
 
 title: slyhyun  # Website name
 baseURL: 'https://slyhyun.github.io/' # Website URL
@@ -11,19 +7,19 @@ baseURL: 'https://slyhyun.github.io/' # Website URL
 ## LANGUAGE
 ############################
 
-languages : 
+languages: 
   ko:
-    languageCode : ko
-    contentDir : content/ko
-    title : "slyhyun"
-    params :
-      description : "안현 웹사이트"
+    languageCode: ko
+    contentDir: content/ko
+    title: "slyhyun"
+    params:
+      description: "안현 웹사이트"
   en: 
-    languageCode : en
-    contentDir : content/en
-    title : "slyhyun"
-    params : 
-      description : "An Hyun Website"
+    languageCode: en
+    contentDir: content/en
+    title: "slyhyun"
+    params:
+      description: "An Hyun Website"
 
 defaultContentLanguage: ko
 hasCJKLanguage: false
@@ -35,7 +31,6 @@ removePathAccents: true
 ############################
 
 cascade:
-  # Blog post options
   - _target:
       path: /post/**
     editable: true
@@ -90,3 +85,10 @@ sitemap:
 minify:
   _merge: deep
 
+############################
+## CUSTOM PARAMETERS (params)
+############################
+
+params:
+  design:
+    flip_alt_rows: false  # 디자인 설정 추가
