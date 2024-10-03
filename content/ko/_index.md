@@ -18,8 +18,8 @@ sections:
   - block: slider
     content:
       slides:
-        - title: <span style="font-size:70%">coding</span>
-          content: <span style="font-size:70%">웹개발</span>
+        - title: <span style="font-size:70%">백엔드</span>
+          content: <span style="font-size:70%">스프링부트</span>
           align: center
           background:
             image:
@@ -29,8 +29,8 @@ sections:
             position: center
             color: '#000'
         
-        - title: <span style="font-size:70%">AI</span>
-          content: <span style="font-size:70%">백엔드</span>
+        - title: <span style="font-size:70%">프론트엔드</span>
+          content: <span style="font-size:70%">리액트</span>
           align: center
           background:
             image:
@@ -40,12 +40,12 @@ sections:
             position: center
             color: '#000'
           
-        - title: <span style="font-size:70%">Cat</span>
-          content: <span style="font-size:70%">인공지능</span>
+        - title: <span style="font-size:70%">인공지능</span>
+          content: <span style="font-size:70%">자연어처리</span>
           align: center
           background:
             image:
-              filename: catimage.jpg
+              filename: researchpaper.jpg
               filters:
                 brightness: 0.4
             position: center

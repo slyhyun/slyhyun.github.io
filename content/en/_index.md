@@ -18,8 +18,8 @@ sections:
   - block: slider
     content:
       slides:
-        - title: <span style="font-size:70%">coding</span>
-          content: <span style="font-size:70%">study code</span>
+        - title: <span style="font-size:70%">Back-End</span>
+          content: <span style="font-size:70%">Spring Boot</span>
           align: center
           background:
             image:
@@ -29,8 +29,8 @@ sections:
             position: center
             color: '#000'
           
-        - title: <span style="font-size:70%">AI</span>
-          content: <span style="font-size:70%">learning ai!</span>
+        - title: <span style="font-size:70%">Front-End</span>
+          content: <span style="font-size:70%">React</span>
           align: center
           background:
             image:
@@ -40,12 +40,12 @@ sections:
             position: center
             color: '#000'
 
-        - title: <span style="font-size:70%">Cat</span>
-          content: <span style="font-size:70%">Look at the cute cat</span>
+        - title: <span style="font-size:70%">Artificial Intelligence</span>
+          content: <span style="font-size:70%">Natural Language Processing</span>
           align: center
           background:
             image:
-              filename: catimage.jpg
+              filename: researchpaper.jpg
               filters:
                 brightness: 0.4
             position: center
