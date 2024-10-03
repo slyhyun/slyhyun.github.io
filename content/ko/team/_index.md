@@ -2,7 +2,8 @@
 title: 팀 프로젝트
 
 # Listing view
-view: showcase
+view: community/custom_showcase
+flip_alt_rows: true
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

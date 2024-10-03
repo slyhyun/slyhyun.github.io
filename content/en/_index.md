@@ -138,7 +138,7 @@ sections:
           - personal
           - team
     design:
-      view: showcase
+      view: community/custom_showcase
       columns: '2'
       flip_alt_rows: true
 
