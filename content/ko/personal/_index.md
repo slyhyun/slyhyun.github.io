@@ -2,7 +2,7 @@
 title: 개인 프로젝트
 
 # Listing view
-view: showcase
+view: community/custom_card
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

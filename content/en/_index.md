@@ -138,7 +138,7 @@ sections:
           - personal
           - team
     design:
-      view: showcase
+      view: community/custom_card
       columns: '2'
 
   - block: contact
