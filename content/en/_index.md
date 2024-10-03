@@ -138,8 +138,9 @@ sections:
           - personal
           - team
     design:
-      view: community/custom_card
+      view: showcase
       columns: '2'
+      flip_alt_rows: true
 
   - block: contact
     content:

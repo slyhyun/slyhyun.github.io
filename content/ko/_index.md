@@ -138,8 +138,9 @@ sections:
           - personal
           - team
     design:
-      view: community/custom_card
+      view: showcase
       columns: '2'
+      flip_alt_rows: true
 
   - block: contact  # contact 블록의 '-' 기호를 들여쓰기를 통해 해결
     content:
