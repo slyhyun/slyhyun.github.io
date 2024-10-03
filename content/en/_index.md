@@ -138,7 +138,7 @@ sections:
           - personal
           - team
     design:
-      view: community/custom_showcase
+      view: showcase
       columns: '2'
 
   - block: contact
