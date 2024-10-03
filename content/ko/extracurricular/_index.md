@@ -1,5 +1,5 @@
 ---
-title: 대외활동 계획
+title: 교외활동 계획
 
 # Listing view
 view: community/custom_compact

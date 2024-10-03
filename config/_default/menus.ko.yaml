@@ -23,7 +23,7 @@ main:
     url: academic
     identifier: academic
     weight: 20
-  - name: 교과
+  - name: 수강 과목
     url: course
     parent: academic
     weight: 10
@@ -69,7 +69,7 @@ main:
     url: in-school
     parent: plan
     weight: 10
-  - name: 대외활동
+  - name: 교외활동
     url: extracurricular
     parent: plan
     weight: 20
