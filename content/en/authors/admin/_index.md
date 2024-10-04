@@ -1,77 +1,77 @@
 ---
 # Display name
-title: 안현
+title: An Hyun
 
 # Full Name (for SEO)
-first_name: 현
-last_name: 안
+first_name: Hyun
+last_name: An
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: 전북대학교 컴퓨터공학부 
+role: Department of Computer Science and Engineering, JBNU
 
 # Organizations/Affiliations
 organizations:
-  - name: 전북대학교
+  - name: Jeonbuk National University
     url: 'https://www.jbnu.ac.kr/kor/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 웹개발, 인공지능, 백엔드
+bio: Web Development, Artificial intelligence, Back-end, Front-end
 
 interests:
-  - 웹개발
-  - 인공지능
-  - 백엔드
-  - 프론트엔드
+  - Web Development
+  - Artificial intelligence
+  - Back-end
+  - Front-end
   
 
   
 education:
   courses:
-    - course: 컴퓨터공학부 학생
-      institution: 전북대학교
+    - course: Department of Computer Science and Engineering
+      institution: Jeonbuk National University
       year: ~2026
 
 languages:
-  - language: 한글
-    proficiency: 현지인
-  - language: 영어
-    proficiency: 유창
+  - language: Korean
+    proficiency: native
+  - language: English
+    proficiency: fluent
 
 skills:
-  - name: 개발 언어
+  - name: Development Language
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: 파이썬
+      - name: Python
         description: ''
         percent: 60
       - name: C/C++
         description: ''
         percent: 80
-      - name: 자바
+      - name: Java
         description: ''
         percent: 80
-  - name: 프레임워크
+  - name: Framework
     color: '#28a745'
     color_border: '#2ecc71'
     items:
-      - name: 노드JS
+      - name: Node.js
         description: ''
         percent: 40
-      - name: 리액트
+      - name: React
         description: ''
         percent: 60
-      - name: 스프링부트
+      - name: Spring Boot
         description: ''
         percent: 80
 
 # Personal goals
 goals:
-  - 백엔드 웹개발자
-  - 인공지능 기술 공부
+  - Back-end Developer
+  - Studying Artificial Intelligence
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

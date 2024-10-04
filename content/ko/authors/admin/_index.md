@@ -30,7 +30,7 @@ interests:
   
 education:
   courses:
-    - course: 컴퓨터공학부 학생
+    - course: 컴퓨터공학부
       institution: 전북대학교
       year: ~2026
 
@@ -41,7 +41,7 @@ languages:
     proficiency: 유창
 
 skills:
-  - name: 개발 언어
+  - name: 프로그래밍 언어
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
@@ -58,7 +58,7 @@ skills:
     color: '#28a745'
     color_border: '#2ecc71'
     items:
-      - name: 노드JS
+      - name: 노드js
         description: ''
         percent: 40
       - name: 리액트
@@ -71,7 +71,7 @@ skills:
 # Personal goals
 goals:
   - 백엔드 웹개발자
-  - 인공지능 기술 공부
+  - 인공지능 공부
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
