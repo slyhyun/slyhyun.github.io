@@ -53,11 +53,14 @@
       </a>
       {{ end }}      
 
-      {{/* 작성 날짜 추가 부분 시작 */}}
       <div class="article-date" style="font-size: 0.8em; color: #6c757d; margin-top: 5px;">
-        {{ $item.Date.Format "Jan 02, 2006" }} <!-- 날짜 형식 설정: "MMM DD, YYYY" -->
+        {{ $month := $item.Date.Format "1월" }}
+        {{ $day := $item.Date.Format "2" }}      
+        {{ $year := $item.Date.Format "2006" }}  
+        {{ printf "%s %d, %s" $month $day $year }} 
       </div>
-      {{/* 작성 날짜 추가 부분 끝 */}}
+      
+  
 
       <div class="btn-links">
         {{ partial "page_links" (dict "page" $item "is_list" 0) }}
