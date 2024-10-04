@@ -1,5 +1,5 @@
 ---
-title: 수강 과목
+title: Course
 
 # Listing view
 view: community/custom_compact

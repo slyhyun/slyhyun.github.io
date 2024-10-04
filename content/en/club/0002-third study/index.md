@@ -1,5 +1,5 @@
 ---
-title: 3rd C Study
+title: Third C Study
 date: 2024-03-01
 ---
 

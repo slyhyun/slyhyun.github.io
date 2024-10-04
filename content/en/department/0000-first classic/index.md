@@ -1,5 +1,5 @@
 ---
-title: 고전.명저읽기 발표
+title: Reading Classics Announcement
 date: 2023-09-01
 ---
 

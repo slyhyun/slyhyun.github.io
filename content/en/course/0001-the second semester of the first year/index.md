@@ -1,17 +1,17 @@
 ---
-title: 1학년 2학기 수강 과목
+title: Course for the second semester of the first year
 date: 2020-09-01
 ---
 
-C언어기초, 글쓰기, 법학의이해, 생활속의지구과학과환경, 수학 2, 실용영어, 진로개발및상담
+Basic C Language, Writing, Understanding of Law, Earth Science and Environment in Life, Mathematics 2, Practical English, Career Development and Counseling
 
 <!--more-->
 ```
-C언어기초 - 교양 - 3 학점
-글쓰기 - 교양 - 3 학점
-법학의이해 - 교양 - 3 학점
-생활속의지구과학과환경 - 교양 - 3 학점
-수학 2 - 교양 - 3학점
-실용영어 - 교양 - 3학점
-진로개발및상담 - 기초필수 - 0 학점
+Basic C Language - Liberal Arts - 3 Credits
+Writing - Liberal Arts - 3 Credits
+Understanding of Law - Liberal Arts - 3 Credits
+Earth Science and Environment in Life - Liberal Arts - 3 Credits
+Mathematics 2 2 - Liberal Arts. - 3 Credits
+Practical English - Liberal Arts - 3 Credits
+Career Development and Counseling - Basic Requirement - 0 Credit
 ```

@@ -1,16 +1,16 @@
 ---
-title: 1학년 1학기 수강 과목
+title: Course for the first semester of the first year
 date: 2020-03-01
 ---
 
-대학생활과진로설계, 수학 1, 일반물리학 1, 컴퓨팅사고와인간, 한국사의이해, 진로개발및상담
+College Life and Career Design, Mathematics 1, General Physics 1, Computing Thinking and Human, Understanding of Korean History, Career Development and Counseling
 
 <!--more-->
 ```
-대학생활과진로설계 - 교양 - 1 학점
-수학 1 - 교양 - 3 학점
-일반물리학 - 교양 - 3 학점
-컴퓨팅사고와인간 - 교양 - 3 학점
-한국사의이해 - 교양 - 3학점
-진로개발및상담 - 기초필수 - 0 학점
+College Life and Career Design - Liberal Arts - 1 Credit
+Mathematics 1 - Liberal Arts - 3 Credits
+General Physics 1 - Liberal Arts - 3 Credits
+Computing Thinking and Human - Liberal Arts - 3 Credits
+Understanding of Korean History - Liberal Arts - 3 Credits
+Career Development and Counseling - Basic Requirement - 0 Credit
 ```

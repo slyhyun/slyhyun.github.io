@@ -1,17 +1,17 @@
 ---
-title: 2학년 2학기 수강 과목
+title: Course for the second semester of the second year
 date: 2023-09-01
 ---
 
-고전.명저읽기, 빅데이터이해및활용, 데이터통신, 확률및통계, 알고리즘, 컴퓨터구조, 전공진로설계 2
+Reading Classics, Understanding and Utilizing Big Data, Data Communication, Probability and Statistics, Algorithm, Computer Structure, Major Career Design 2
 
 <!--more-->
 ```
-고전.명저읽기 - 교양 - 3 학점
-빅데이터이해및활용 - 교양 - 3 학점
-데이터통신 - 전공선택 - 3학점
-확률및통계 - 전공선택 - 3학점
-알고리즘 - 전공필수 - 3 학점
-컴퓨터구조 - 전공필수 - 3 학점
-전공진로설계 2 - 공통필수 - 0.5 학점
+Reading Classics - Liberal Arts - 3 Credits
+Understanding and Utilizing Big Data - Liberal Arts - 3 Credits
+Data Communication - Major Selection - 3 Credits
+Probability and Statistics - Major Selection - 3 Credits
+Algorithm - Major Required - 3 Credits
+Computer Structure - Major Required - 3 Credits
+Major Career Design 2 - Common Required - 0.5 Credit
 ```

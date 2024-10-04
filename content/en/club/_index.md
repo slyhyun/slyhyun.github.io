@@ -1,5 +1,5 @@
 ---
-title: 동아리 활동
+title: Club Activity
 
 # Listing view
 view: community/custom_card

@@ -1,5 +1,5 @@
 ---
-title: 2nd C Study
+title: Second C Study
 date: 2023-09-02
 ---
 

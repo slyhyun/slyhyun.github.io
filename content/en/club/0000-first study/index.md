@@ -1,5 +1,5 @@
 ---
-title: 1st C Study
+title: First C Study
 date: 2023-09-01
 ---
 Project Name : Implementation of a game of yut using a console<br>

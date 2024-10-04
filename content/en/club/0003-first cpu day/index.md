@@ -1,5 +1,5 @@
 ---
-title: CPU DAY for the 2nd semester of 2023
+title: CPU DAY for the second semester of 2023
 date: 2023-09-03
 ---
 

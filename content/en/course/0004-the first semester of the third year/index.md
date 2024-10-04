@@ -1,17 +1,17 @@
 ---
-title: 3학년 1학기 수강 과목
+title: Course for the first semester of the third year
 date: 2024-03-01
 ---
 
-수치해석및최적화, 컴퓨터네트워크, 프로그래밍언어론, 데이터베이스, 운영체제, 인공지능, 전공진로설계 3
+Numerical Analysis and Optimization, Computer Network, Programming Linguistics, Database, Operating System, Artificial Intelligence, Major Career Design 3
 
 <!--more-->
 ```
-수치해석및최적화 - 전공선택 - 3 학점
-컴퓨터네트워크 - 전공선택 - 3 학점
-프로그래밍언어론 - 전공선택 - 3학점
-데이터베이스 - 전공필수 - 3학점
-운영체제 - 전공필수 - 3 학점
-인공지능 - 전공필수 - 3 학점
-전공진로설계 3 - 공통필수 - 0.5 학점
+Numerical Analysis and Optimization - Major Selection - 3 Credits
+Computer Network - Major Selection - 3 Credits
+Programming Linguistics - Major Selection - 3 Credits
+Database - Major Required - 3 Credits
+Operating System - Major Required - 3 Credits
+Artificial Intelligence - Major Required - 3 Credits
+Major Career Design 3 - Common Required - 0.5 Credit
 ```

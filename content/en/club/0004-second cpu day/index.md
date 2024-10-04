@@ -1,5 +1,5 @@
 ---
-title: CPU DAY for the 1st semester of 2024
+title: CPU DAY for the first semester of 2024
 date: 2024-03-02
 ---
 
