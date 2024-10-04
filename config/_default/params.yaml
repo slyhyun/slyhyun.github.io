@@ -14,11 +14,11 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: Person
     local_business_type: ''
-    org_name: 'slyhyun'
-    description: 'I am student in JBNU'
-    twitter: 'GetResearchDev'
+    org_name: '전북대학교'
+    description: '전북대학교 안현'
+    keywords: ['안현','전북대학교']
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,10 +35,10 @@ header:
     enable: true
     align: c
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
