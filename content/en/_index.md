@@ -19,35 +19,35 @@ sections:
     content:
       slides:
         - title: <span style="font-size:70%">Back-End</span>
-          content: <span style="font-size:70%">Spring Boot</span>
+          content: <span style="font-size:70%">Spring Boot, Node.js, Django</span>
           align: center
           background:
             image:
               filename: code1.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.5
             position: center
             color: '#000'
           
         - title: <span style="font-size:70%">Front-End</span>
-          content: <span style="font-size:70%">React</span>
+          content: <span style="font-size:70%">React, Vue.js, Angular</span>
           align: center
           background:
             image:
               filename: code2.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.5
             position: center
             color: '#000'
 
         - title: <span style="font-size:70%">Artificial Intelligence</span>
-          content: <span style="font-size:70%">Natural Language Processing</span>
+          content: <span style="font-size:70%">Natural Language Processing, Computer Vision</span>
           align: center
           background:
             image:
               filename: researchpaper.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.5
             position: center
             color: '#000'
     design:

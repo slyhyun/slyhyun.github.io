@@ -19,35 +19,35 @@ sections:
     content:
       slides:
         - title: <span style="font-size:70%">백엔드</span>
-          content: <span style="font-size:70%">스프링부트</span>
+          content: <span style="font-size:70%">스프링부트, 노드js, 장고</span>
           align: center
           background:
             image:
               filename: code1.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.5
             position: center
             color: '#000'
         
         - title: <span style="font-size:70%">프론트엔드</span>
-          content: <span style="font-size:70%">리액트</span>
+          content: <span style="font-size:70%">리액트, 뷰js, 앵귤러</span>
           align: center
           background:
             image:
               filename: code2.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.5
             position: center
             color: '#000'
           
         - title: <span style="font-size:70%">인공지능</span>
-          content: <span style="font-size:70%">자연어처리</span>
+          content: <span style="font-size:70%">자연어 처리, 컴퓨터 비전</span>
           align: center
           background:
             image:
               filename: researchpaper.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.5
             position: center
             color: '#000'
     design:
