@@ -54,7 +54,7 @@
       {{ end }}      
 
       <div class="article-date" style="font-size: 0.7em; color: #96979D; margin-top: 5px;">
-        {{ if eq .Site.Language.Lang "en" }}
+        {{ if eq .Language.Lang "en" }}
           <!-- 영어 페이지인 경우 -->
           {{ $month := $item.Date.Format "Jan" }} <!-- 월을 Jan, Feb 형식으로 출력 -->
           {{ $day := $item.Date.Format "2" }}   
