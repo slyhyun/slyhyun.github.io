@@ -91,4 +91,7 @@ minify:
 
 params:
   design:
-    flip_alt_rows: false  # 디자인 설정 추가
+    flip_alt_rows: false
+  date_format:
+    en: "Jan 2, 2006"     
+    ko: "1월 2, 2006" 
