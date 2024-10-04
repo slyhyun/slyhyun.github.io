@@ -54,21 +54,8 @@
       {{ end }}      
 
       <div class="article-date" style="font-size: 0.7em; color: #96979D; margin-top: 5px;">
-        {{ if eq .Language.Lang "ko" }}
-          {{ $month := $item.Date.Format "1월" }} 
-          {{ $day := $item.Date.Format "2" }}   
-          {{ $year := $item.Date.Format "2006" }} 
-          {{ printf "%s %s, %s" $month $day $year }}
-        {{ else }}
-          {{ $month := $item.Date.Format "Jan" }} 
-          {{ $day := $item.Date.Format "2" }}   
-          {{ $year := $item.Date.Format "2006" }} 
-          {{ printf "%s %s, %s" $month $day $year }}
-        {{ end }}
+        {{ partial "functions/get_event_dates" $item }}
       </div>
-      
-      
-  
 
       <div class="btn-links">
         {{ partial "page_links" (dict "page" $item "is_list" 0) }}
