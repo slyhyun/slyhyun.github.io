@@ -53,20 +53,19 @@
       </a>
       {{ end }}      
 
-      <div class="article-date" style="font-size: 0.7em; color: #A0A0A0; margin-top: 5px;">
+      <div class="article-date" style="font-size: 0.7em; color: #96979D; margin-top: 5px;">
         {{ if eq .Language.Lang "ko" }}
-          <!-- 한국어 페이지인 경우: 9월 1, 2024 형식으로 날짜 표시 -->
-          {{ $month := $item.Date.Format "1월" }}
+          {{ $month := $item.Date.Format "1월" }} 
           {{ $day := $item.Date.Format "2" }}   
           {{ $year := $item.Date.Format "2006" }} 
           {{ printf "%s %s, %s" $month $day $year }}
-        {{ else if eq .Language.Lang "en" }}
-          <!-- 영어 페이지인 경우: Sep 1, 2024 형식으로 날짜 표시 -->
-          {{ $formattedDate := $item.Date.Format "Jan 2, 2006" }}
-          {{ $formattedDate }}
+        {{ else }}
+          {{ $month := $item.Date.Format "Jan" }} 
+          {{ $day := $item.Date.Format "2" }}   
+          {{ $year := $item.Date.Format "2006" }} 
+          {{ printf "%s %s, %s" $month $day $year }}
         {{ end }}
       </div>
-      
       
       
   
