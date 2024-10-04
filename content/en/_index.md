@@ -40,7 +40,7 @@ sections:
             position: center
             color: '#000'
           
-        - title: <span style="font-size:70%">Artificial intelligence</span>
+        - title: <span style="font-size:70%">Artificial Intelligence</span>
           content: <span style="font-size:70%">Natural Language Processing, Computer Vision</span>
           align: center
           background:

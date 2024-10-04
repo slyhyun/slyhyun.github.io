@@ -1,59 +1,59 @@
 ---
-title: 알고리즘 프로젝트
+title: Algorithm Project
 date: 2023-09-01
 ---
 
-프림 알고리즘과 크루스칼 알고리즘의 성능을 비교하는 프로젝트
+The project to compare the performance of Prim and Kruskal algorithms
 
 <!--more-->
 ```
-1. 주제 선정 기준
-- 알고리즘의 학습 능력 향상에 도움이 되는가?
-- 입력 데이터에 따른 의미있는 출력 데이터가 있는가?
+1. Criteria for Selecting a Topic
+- Does it help improve the learning ability of algorithms?
+- Is there any meaningful output data according to the input data?
 
-2. 주제에 필요한 알고리즘
-- 프림 알고리즘과 크루스칼 알고리즘의 구현
-- 두 알고리즘의 성능을 비교하는 알고리즘
+2. Algorithms Required for Topic
+- Implementation of Prim Algorithm and Kruskal Algorithm
+- an algorithm that compares the performance of two algorithms
 
-3. 프림 알고리즘
-- 최소 신장 트리 구현에 사용되는 알고리즘이다.
-- 프림의 핵심은 트리 집합을 단계적으로 확장하는 것이다.
-- 우선순위 큐를 이용한 최소 힙으로 구현할 수 있다.
-- 다익스트라 알고리즘과 구현 방식이 유사하다.
-- 새로운 정점을 연결할 때마다 연결되지 않은 정점들에 대한 간선을 추가해줘야 한다.
-- 가장 가중치가 작은 정점을 연결하는 정점 선택 기반으로 동작한다.
-- 시간 복잡도 : O(ElogV)
+3. Prim Algorithm
+- It is an algorithm used to implement a minimum spanning tree.
+- The core of Prim is to scale the tree set in stages.
+- It may be implemented with a minimum heap using a priority queue.
+- The implementation method is similar to the Dykstra algorithm.
+- Every time you connect a new vertex, you must add an edge to the unconnected vertices.
+- It operates on a vertex selection basis connecting the least weighted vertices.
+- Time complexity: O (ElogV)
 
-4. 크루스칼 알고리즘
-- 최소 신장 트리 구현에 사용되는 알고리즘이다.
-- 크루스칼의 핵심은 모든 간선을 가중치 기준으로 오름차순으로 정렬하는 것이다.
-- 이 간선들을 순서대로 모든 정점이 연결될 때까지 연결해야 한다.
-- Union-Find 알고리즘을 이용해서 구현할 수 있다.
-- 사이클이 형성되지 않으면서 모든 정점을 연결할 수 있다.
-- 가장 가중치가 작은 간선을 연결하는 간선 선택 기반으로 동작한다.
-- 시간 복잡도 : O(ElogE)
+4. Kruskal Algorithm
+- It is an algorithm used to implement a minimum spanning tree.
+- The core of Kruskal is to sort all edges in ascending order by weight.
+- These edges must be connected in order until all the vertices are connected.
+- It can be implemented using the Union-Find algorithm.
+- You can connect all the vertices without forming a cycle.
+- It operates on the basis of edge selection connecting the least weighted edges.
+- Time complexity: O (ElogE)
 
-5. 시간 측정 알고리즘
-- clock_t 함수를 이용하여 각각의 알고리즘의 실행 시간을 측정합니다.
-- 그래프의 정점과 간선의 수와 가중치는 랜덤 함수를 사용합니다.
-- 실행 시간을 비교하여 정점과 간선의 수와 가중치와의 상관관계를 파악합니다.
-- 상관관계를 확인하기 위하여 정점과 간선의 수와 가중치를 설정하여 측정합니다.
+5. Time-Measuring Algorithm
+- Use the clock_t function to measure the execution time of each algorithm.
+- The number and weight of vertices and edges in the graph use random functions.
+- Compare run times to determine the correlation between the number of vertices and edges and their weights.
+- Measure by setting the number and weight of vertices and edges to check the correlation.
 
-6. 입력 데이터
-- 정점, 감선의 수, 간선의 가중치
+6. Input Data
+- Weights of vertices, number of lines, and edges
 
-7. 출력 데이터
-- 정렬된 최소 신장 트리, 실행시간
+7. Output Data
+- sorted minimum spanning tree, running time
 
-8. 프로젝트 결과
-- 노드의 수 100게, 최대 가중치 500, 간선의 수 1000개인 그래프
-    - 프림 알고리즘 가중치 총 합 : 2511
-    - 프림 알고리즘 실행 시간 : 0.001초
-    - 크루스칼 알고리즘 가중치 총 합 : 2511
-    - 크루스칼 알고리즘 실행 시간 : 0.015
-- 노드의 수 100개, 최대 가중치 500, 간선의 수 3000개인 그래프
-    - 프림 알고리즘 가중치 총 합 : 1041
-    - 프림 알고리즘 실행 시간 : 0.001
-    - 크루스칼 알고리즘 가중치 총 합 : 1041
-    - 크루스칼 알고리즘 실행 시간 : 0.011
+8. Project Results
+- Graphs with 100 nodes, 500 maximum weights, 1000 edges
+- Total primal algorithm weight: 2511
+- Prim algorithm execution time: 0.001 seconds
+- Total Kruskal Algorithm Weight: 2511
+- Kruskal algorithm execution time: 0.015
+- Graphs with 100 nodes, 500 maximum weights, 3000 edges
+- Total primal algorithm weight: 1041
+- Prim algorithm execution time: 0.001
+- Total Kruskal Algorithm Weight: 1041
+- Kruskal algorithm execution time: 0.011
 ```

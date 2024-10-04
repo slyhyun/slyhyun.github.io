@@ -18,11 +18,11 @@ organizations:
     url: 'https://www.jbnu.ac.kr/kor/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Web Development, Artificial intelligence, Back-end, Front-end
+bio: Web Development, Artificial Intelligence, Back-end, Front-end
 
 interests:
   - Web Development
-  - Artificial intelligence
+  - Artificial Intelligence
   - Back-end
   - Front-end
   

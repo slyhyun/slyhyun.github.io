@@ -1,5 +1,5 @@
 ---
-title: 개인 프로젝트
+title: Personal Project
 
 # Listing view
 view: community/custom_showcase

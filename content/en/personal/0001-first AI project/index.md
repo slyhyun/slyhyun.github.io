@@ -1,37 +1,37 @@
 ---
-title: 알고리즘 프로젝트 1
+title: Artificial Intelligence Project 1
 date: 2024-03-01
 ---
 
-A* 알고리즘을 이용한 경로 찾기 프로그램을 구현하는 프로젝트
+The project to implement a route finding program using an A* algorithm
 
 <!--more-->
 ```
-1. 개요
-이 파이썬 프로그램은 pygame 라이브러리를 사용하여 A* 경로 찾기 알고리즘을 시각화합니다. 알고리즘이 격자(grid)에서 장애물을 피해 두 점 사이의 최단 경로를 어떻게 찾는지 이해하는 데 도움을 줍니다.
+1. Overview
+This Python program uses the pygame library to visualize the A* path finding algorithm. It helps you understand how the algorithm finds the shortest path between two points, avoiding obstacles on the grid.
 
-2. 초기화 및 설정
-- 파이게임 초기화 : 그래픽 인터페이스를 위한 환경을 설정합니다.
-- 창 설정 : 900x700 픽셀 크기의 창을 생성합니다.
-- 색상 정의 : 시각화에 사용되는 색상을 정의합니다.
+2. Initialize and Set Up
+- PiGame Initialization: Set the environment for the graphical interface.
+- Window settings: Create a window with a size of 900x700 pixels.
+- Color definition: Defines the color used for visualization.
 
-3. 격자, 장애물 및 시작지점과 목표지점 설정
-- 격자 정의 : 30x30 셀의 플레이 영역을 정의하며, 각 셀은 자유 공간 또는 장애물일 수 있습니다.
-- 시작 지점과 목표 지점 : S (시작지점), G (목표지점)으로 표시되며, 마우스 드래그를 통해 움직일 수 있습니다. S와 G와 장애물은 서로 겹칠 수 없습니다.
-- 장애물 배치 : Random Walls 버튼을 눌러 격자의 20%에 장애물을 무작위로 배치합니다. 마우스 클릭과 마우스 드래그롤 사용하여 장애물을 설치하고 삭제할 수 있습니다.
+3. Set Grid, Obstacle, and Starting Point and Target Point
+- Grid definition: defines the play area of 30x30 cells, each of which can be free space or an obstacle.
+- Start point and target point: represented by S (start point), G (go point), and can be moved by mouse drag. S and G and obstacles cannot overlap each other.
+- Placement of Obstacles : Press the Random Walls button to randomly place obstacles in 20% of the grid. You can use mouse clicks and mouse drag rolls to install and delete obstacles.
 
-4. A 알고리즘 구현*
-- 노드 클래스 : 각 격자 셀을 나타내며 A* 알고리즘 관리를 위한 속성(비용, 휴리스틱, 총합)을 가집니다.
-- 휴리스틱 함수 : 현재 셀에서 목표 셀까지의 추정 비용을 맨해튼 거리나 유클리드 거리로 계산합니다.
-- A* 알고리즘(astar) : 노드의 열린 리스트와 닫힌 리스트를 관리하고, 최소 힙을 사용하여 가장 낮은 비용의 경로를 확장합니다.
+4. Implementing Algorithm A*
+- Node class : represents each grid cell and has properties (cost, heuristic, total) for managing the A* algorithm.
+- Heuristic function: Calculates the estimated cost from the current cell to the target cell in Manhattan distance or Euclidean distance.
+- A* Algorithm (astar) : Manage open and closed lists of nodes, and use the minimum heap to extend the path of the lowest cost.
 
-5. 시각화 및 상호 작용
--그리기 함수들 :
--draw_grid : 격자를 시각화하며, 자유 셀, 장애물, 시작 및 목표 셀을 표시합니다.
--draw_path : A*가 찾은 경로를 강조 표시합니다.
--버튼 : Start A* Search 버튼을 통해 경로 찾기를 시작하고, Random Walls 버튼을 통해 장애물 구성을 변경하며, Reset 버튼을 통해 격자를 재설정할 수 있습니다.-ratio 버튼 : Manhattn, Euclidean 중 하나를 선택 할 수 있으며, 각각 맨해튼 거리, 유클리드 거리를 구할 수 있습니다.
+5. Visualization and Interaction
+-Draw functions:
+-draw_grid : Visualizes the grid, displays free cells, obstacles, start and target cells.
+-draw_path : Highlight the path found by A*.
+-Button : Start the path finding through the Start A* Search button, change the obstacle configuration through the Random Walls button, and reset the grid through the Reset button. -ratio button : You can choose between Manhattan and Euclidan, respectively.
 
-6. 메인 루프
-- 이벤트를 지속적으로 확인하고 화면을 적절히 업데이트합니다.
-- 경로 찾기는 지정된 버튼 영역을 클릭하여 실행할 수 있으며, 찾은 경로(또는 완전한 경로를 찾지 못한 경우 최선의 시도)가 표시됩니다.
+6. Main Loop
+- Continue to check for events and update the screen appropriately.
+- Finding a path can be executed by clicking on the specified button area, and the path found (or best attempt if a complete path is not found) is displayed.
 ```
