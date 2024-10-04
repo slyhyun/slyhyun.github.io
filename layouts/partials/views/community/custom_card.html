@@ -47,11 +47,13 @@
   {{ $image := .Resize "550x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-  <div class="img-hover-zoom">
+  <div class="img-hover-zoom" style="display: flex; justify-content: center;">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
          alt="{{ $item.Title }}" class="article-banner" loading="lazy" style="width: 550px; height: auto; object-fit: cover; margin-top: 15px;">
+  </div>
   </a>
   {{ end }}
+  
   
 
   <div class="section-subheading article-title mb-1 mt-3">
