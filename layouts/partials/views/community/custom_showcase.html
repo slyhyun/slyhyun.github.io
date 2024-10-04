@@ -54,10 +54,19 @@
       {{ end }}      
 
       <div class="article-date" style="font-size: 0.7em; color: #96979D; margin-top: 5px;">
-        {{ $month := $item.Date.Format "1월" }}
-        {{ $day := $item.Date.Format "2" }}   
-        {{ $year := $item.Date.Format "2006" }} 
-        {{ printf "%s %s, %s" $month $day $year }}
+        {{ if eq .Site.Language.Lang "en" }}
+          <!-- 영어 페이지인 경우 -->
+          {{ $month := $item.Date.Format "Jan" }} <!-- 월을 Jan, Feb 형식으로 출력 -->
+          {{ $day := $item.Date.Format "2" }}   
+          {{ $year := $item.Date.Format "2006" }} 
+          {{ printf "%s %s, %s" $month $day $year }}
+        {{ else }}
+          <!-- 한국어 페이지인 경우 -->
+          {{ $month := $item.Date.Format "1월" }} <!-- 월을 1월, 2월 형식으로 출력 -->
+          {{ $day := $item.Date.Format "2" }}   
+          {{ $year := $item.Date.Format "2006" }} 
+          {{ printf "%s %s, %s" $month $day $year }}
+        {{ end }}
       </div>
       
       
