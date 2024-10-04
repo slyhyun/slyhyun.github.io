@@ -53,12 +53,13 @@
       </a>
       {{ end }}      
 
-      <div class="article-date" style="font-size: 0.6em; color: #6c757d; margin-top: 5px;">
+      <div class="article-date" style="font-size: 0.8em; color: #6c757d; margin-top: 5px;">
         {{ $month := $item.Date.Format "1월" }}
-        {{ $day := $item.Date.Format "2" }}      
-        {{ $year := $item.Date.Format "2006" }}  
-        {{ printf "%s %d, %s" $month $day $year }} 
+        {{ $day := $item.Date.Format "2" }}  
+        {{ $year := $item.Date.Format "2006" }
+        {{ print $month " " $day ", " $year }} 
       </div>
+      
       
   
 
