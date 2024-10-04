@@ -11,13 +11,10 @@ sections:
         안현
       image:
         filename: AnHyun.jpg
-        position: left  # 이미지 위치 설정: left, right 등
       text: |
+        <br>
         전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.
-    design:
-      layout: "2-cols"  # 2열 레이아웃으로 변경
-      image_position: "left"  # 이미지 위치를 왼쪽으로 설정
-      text_position: "right"  # 텍스트 위치를 오른쪽으로 설정
+  
   - block: slider
     content:
       slides:
