@@ -54,7 +54,10 @@
       {{ end }}      
 
       <div class="article-date" style="font-size: 0.7em; color: #96979D; margin-top: 5px;">
-        {{ partial "functions/get_event_dates" $item }}
+        {{ if eq $item.Type "event" }}
+        <span>
+          {{ partial "functions/get_event_dates" $item }}
+        </span>
       </div>
 
       <div class="btn-links">
