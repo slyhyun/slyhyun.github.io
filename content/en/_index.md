@@ -18,7 +18,7 @@ sections:
   - block: slider
     content:
       slides:
-        - title: <span style="font-size:70%">Back-End</span>
+        - title: <span style="font-size:70%">Back-end</span>
           content: <span style="font-size:70%">Spring Boot, Node.js, Django</span>
           align: center
           background:
@@ -29,7 +29,7 @@ sections:
             position: center
             color: '#000'
           
-        - title: <span style="font-size:70%">Front-End</span>
+        - title: <span style="font-size:70%">Front-end</span>
           content: <span style="font-size:70%">React, Vue.js, Angular</span>
           align: center
           background:

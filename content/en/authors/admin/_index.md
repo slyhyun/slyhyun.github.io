@@ -22,8 +22,9 @@ bio: studying web, computer science, algoritm
 
 interests:
   - Web Programing
+  - Artificial Intelligence
   - Back-end
-  - Spring Boot
+  - Front-end
   
 
   
