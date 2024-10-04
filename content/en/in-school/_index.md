@@ -1,5 +1,5 @@
 ---
-title: 교내활동 계획
+title: In-School Plan
 
 # Listing view
 view: community/custom_compact

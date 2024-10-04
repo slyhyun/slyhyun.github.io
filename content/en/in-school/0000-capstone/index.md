@@ -1,8 +1,8 @@
 ---
-title: 캡스톤 경진대회 참여 계획
+title: Capstone Competition Participate Plan
 date: 2024-09-01
 ---
 
-2025년 1학기에 캡스톤 경진 대회에 참여할 계획입니다.
+I plan to participate in the capstone competition in the first semester of 2025.
 
 <!--more-->
