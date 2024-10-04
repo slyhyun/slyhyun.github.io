@@ -58,7 +58,8 @@
         <span>
           {{ partial "functions/get_event_dates" $item }}
         </span>
-      </div>
+        {{ end }} <!-- 이 부분을 추가하여 if 블록을 닫음 -->
+      </div> <!-- 닫히지 않았던 div 태그 닫기 -->
 
       <div class="btn-links">
         {{ partial "page_links" (dict "page" $item "is_list" 0) }}
