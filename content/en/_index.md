@@ -11,9 +11,14 @@ sections:
         An Hyun
       image:
         filename: AnHyun.jpg
+        position: left
       text: |
         <br>
         I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.
+    design:
+      layout: "2-cols"  # 2열 레이아웃으로 변경
+      image_position: "left"  # 이미지 위치를 왼쪽으로 설정
+      text_position: "right"  # 텍스트 위치를 오른쪽으로 설정
   
   - block: slider
     content:
