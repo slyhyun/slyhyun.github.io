@@ -1,9 +1,10 @@
 ---
-title: 빅데이터이해및활용 과제 2
+title: Understanding and Utilizing Big Data assignment 2
 date: 2023-09-03
 ---
 
-시, 도 별 인구밀도를 트리맵으로 그려보는 활동
+
+The activitiy to draw population density by city and province with a tree map
 
 <!--more-->
 ```

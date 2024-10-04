@@ -1,9 +1,9 @@
 ---
-title: 빅데이터이해및활용 과제 1
+title: Understanding and Utilizing Big Data assignment 1
 date: 2023-09-02
 ---
 
-전라북도 시민들의 건강상태 데이터를 분석하는 활동
+The activity to analyze the health status data of North Jeolla Province citizens
 
 <!--more-->
 ```
