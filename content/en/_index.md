@@ -8,18 +8,18 @@ sections:
   - block: hero
     content:
       title: |
-        안현
+        An Hyun
       image:
         filename: AnHyun.jpg
       text: |
         <br>
-        전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.
+        I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.
   
   - block: slider
     content:
       slides:
-        - title: <span style="font-size:70%">백엔드</span>
-          content: <span style="font-size:70%">스프링부트, 노드js, 장고</span>
+        - title: <span style="font-size:70%">Back-end</span>
+          content: <span style="font-size:70%">Spring Boot, Node.js, Django</span>
           align: center
           background:
             image:
@@ -29,8 +29,8 @@ sections:
             position: center
             color: '#000'
         
-        - title: <span style="font-size:70%">프론트엔드</span>
-          content: <span style="font-size:70%">리액트, 뷰js, 앵귤러</span>
+        - title: <span style="font-size:70%">Front-end</span>
+          content: <span style="font-size:70%">React, Vue.js, Angular</span>
           align: center
           background:
             image:
@@ -40,8 +40,8 @@ sections:
             position: center
             color: '#000'
           
-        - title: <span style="font-size:70%">인공지능</span>
-          content: <span style="font-size:70%">자연어 처리, 컴퓨터 비전</span>
+        - title: <span style="font-size:70%">Artificial intelligence</span>
+          content: <span style="font-size:70%">Natural Language Processing, Computer Vision</span>
           align: center
           background:
             image:
@@ -94,7 +94,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: 학업
+      title: Academic
       subtitle:
       text:
       count: 3
@@ -110,7 +110,7 @@ sections:
   - block: collection
     content:
       id: section-2
-      title: 활동
+      title: Activity
       subtitle:
       text:
       count: 3
@@ -127,7 +127,7 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: 프로젝트
+      title: Project
       subtitle:
       text:
       count: 3
@@ -144,7 +144,7 @@ sections:
 
   - block: contact  # contact 블록의 '-' 기호를 들여쓰기를 통해 해결
     content:
-      title: 연락처
+      title: Contact
       contact_links:
         - icon: instagram
           icon_pack: fab
@@ -155,11 +155,11 @@ sections:
           name: slyhyun
           link: https://github.com/slyhyun
       address:
-        street: 전북대학교 참빛 1관, 524호
-        city: 전주시
-        region: 전라북도
+        street: JBNU Chambit Hall 1, No. 524
+        city: Jeonju
+        region: Jeollabuk-do
         postcode: '54896'
-        country: 대한민국
+        country: Republic of Korea
         country_code: KO
       coordinates:
         latitude: '35.850785'
