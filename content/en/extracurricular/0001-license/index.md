@@ -1,9 +1,9 @@
 ---
-title: 자격증 취득 계획
+title: License Acquisition Plan
 date: 2024-09-01
 ---
 
-2024년 겨울방학에 자격증을 취득할 계획입니다.<br>
-목표 자격증 : 정보처리기사<br>
+I plan to get a license during the winter vacation of 2024.<br>
+Goal License : Engineer Information Processing<br>
 
 <!--more-->

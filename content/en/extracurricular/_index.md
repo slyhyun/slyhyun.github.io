@@ -1,5 +1,5 @@
 ---
-title: 교외활동 계획
+title: Extracurricular Plan
 
 # Listing view
 view: community/custom_compact
