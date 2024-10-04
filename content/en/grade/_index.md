@@ -1,5 +1,5 @@
 ---
-title: 성적
+title: Grade
 
 # Listing view
 view: community/custom_compact

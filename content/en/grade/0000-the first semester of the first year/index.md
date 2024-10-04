@@ -1,5 +1,5 @@
 ---
-title: 1학년 1학기 성적
+title: Grade for the first semester of the first year
 date: 2020-03-01
 ---
 
@@ -7,8 +7,8 @@ date: 2020-03-01
 
 <!--more-->
 ```
-수학 1 - 4.5
-일반물리학 - 3.5
-컴퓨팅사고와인간 - 4.0
-한국사의이해 - 3.5
+Mathematics 1 - 4.5
+General Physics 1 - 3.5
+Computing Thinking and Human - 4.0
+Understanding of Korean History - 3.5
 ```

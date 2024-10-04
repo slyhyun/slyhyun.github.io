@@ -1,5 +1,5 @@
 ---
-title: 2학년 2학기 성적
+title: Grade for the second semester of the second year
 date: 2023-09-01
 ---
 
@@ -7,10 +7,10 @@ date: 2023-09-01
 
 <!--more-->
 ```
-고전.명저읽기 - 4.0
-빅데이터이해및활용 - 4.5
-데이터통신 - 4.0
-확률및통계 - 3.5
-알고리즘 - 3.5
-컴퓨터구조 - 4.0
+Reading Classics - 4.0
+Understanding and Utilizing Big Data - 4.5
+Data Communication - 4.0
+Probability and Statistics - 3.5
+Algorithm - 3.5
+Computer Structure - 4.0
 ```

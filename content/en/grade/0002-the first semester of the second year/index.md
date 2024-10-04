@@ -1,5 +1,5 @@
 ---
-title: 2학년 1학기 성적
+title: Grade for the first semester of the second year
 date: 2021-03-01
 ---
 
@@ -7,10 +7,10 @@ date: 2021-03-01
 
 <!--more-->
 ```
-일반생물학및실험 1 - 4.5
-통계적사고와사회 - 3.5
-JAVA프로그래밍 - 4.0
-논리설계 - 4.0
-윈도우즈프로그래밍 - 3.5
-이산수학 - 3.0
+General Biology and Experiment 1 - 4.5
+Statistical Thinking and Society - 3.5
+JAVA Programming - 4.0
+Logic Design - 4.0
+Windows Programming - 3.5
+Discrete Mathematics - 3.0
 ```

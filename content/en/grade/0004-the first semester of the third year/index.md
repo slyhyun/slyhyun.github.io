@@ -1,5 +1,5 @@
 ---
-title: 3학년 1학기 성적
+title: Course for the first semester of the third year
 date: 2024-03-01
 ---
 
@@ -7,10 +7,10 @@ date: 2024-03-01
 
 <!--more-->
 ```
-수치해석및최적화 - 3.5
-컴퓨터네트워크 - 4.5
-프로그래밍언어론 - 3.5
-데이터베이스 - 4.0
-운영체제 - 4.5
-인공지능 - 3.5
+Numerical Analysis and Optimization - 3.5
+Computer Network - 4.5
+Programming Linguistics - 3.5
+Database - 4.0
+Operating System - 4.5
+Artificial Intelligence - 3.5
 ```

@@ -1,5 +1,5 @@
 ---
-title: 1학년 2학기 성적
+title: Grade for the second semester of the first year
 date: 2020-09-01
 ---
 
@@ -7,10 +7,10 @@ date: 2020-09-01
 
 <!--more-->
 ```
-C언어기초 - 4.0
-글쓰기 - 3.0
-법학의이해 - 3.5
-생활속의지구과학과환경 - 4.0
-수학 2 - 4.5
-실용영어 - 3.5
+Basic C Language - 4.0
+Writing - 3.0
+Understanding of Law - 3.5
+Earth Science and Environment in Life - 4.0
+Mathematics 2 - 4.5
+Practical English - 3.5
 ```
