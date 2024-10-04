@@ -63,15 +63,15 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%">Interests</span>
-      text: I am currently studying the following fields of interest.<br><br><br><br>
+      title: <span style="font-size:75%">Tech Stack</span>
+      text: 
       items:
         - name: Python
           icon: python
           icon_pack: fab
         - name: C/C++
           icon: copyright
-          icon_pack: fab
+          icon_pack: fas
         - name: Java
           icon: java
           icon_pack: fab
@@ -83,7 +83,7 @@ sections:
           icon_pack: fab
         - name: Spring Boot
           icon: leaf
-          icon_pack: fab
+          icon_pack: fas
 
   - block: collection
     content:
