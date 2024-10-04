@@ -1,5 +1,5 @@
 ---
-title: 팀 프로젝트
+title: Team Project
 
 # Listing view
 view: community/custom_showcase

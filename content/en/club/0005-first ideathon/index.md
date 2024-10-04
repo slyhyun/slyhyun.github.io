@@ -1,5 +1,5 @@
 ---
-title: Like Lion Ideathon
+title: LikeLion Ideathon
 date: 2024-03-03
 ---
 

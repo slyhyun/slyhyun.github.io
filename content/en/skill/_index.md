@@ -1,5 +1,5 @@
 ---
-title: 기술 스택
+title: Tecj Stack
 date: 2023-10-24
 type: landing
 
@@ -7,6 +7,6 @@ sections:
 
   - block: skills
     content:
-      title: 기술 스택
+      title: Tech Stack
       username: admin
 ---

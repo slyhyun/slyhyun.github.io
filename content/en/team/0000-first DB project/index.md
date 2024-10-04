@@ -1,23 +1,23 @@
 ---
-title: 데이터베이스 프로젝트
+title: Database Project
 date: 2024-03-01
 ---
 
-시네마 리뷰 - 영화의 정보를 제공하고, 리뷰를 통하여 영화를 평가할 수 있는 웹 페이지를 제작하는 프로젝트<br>
-멤버 : 안현, 배한울<br>
+Cinema Review - The project to produce web pages that provide information on the film and evaluate the film through the review<br>
+Member : 안현, 배한울<br>
 
 <!--more-->
 ```
-1. 구현 기능
-- 회원가입, 로그인 및 로그아웃
-- 회원 목록, 정보 열람 및 관리
-- 영화 검색 기능
-- 영화 정보 생성, 읽기, 수정, 삭제 기능
-- 댓글(리뷰) 생성, 읽기, 수정, 삭제 기능
-- 북마크 생성, 삭제 기능
+1. Implementation Features
+- Sign up, sign in, and log out
+- Membership lists, access and management of information
+- movie search function
+- Create, read, modify, and delete movie information
+- Creating, Reading, Modifying, and deleting comments (reviews)
+- Bookmark creation and deletion capabilities
 
-2. 개발 언어
-- BACK-END : Java(서블릿)
+2. Development Language
+- BACK-END: Java (servelet)
 - FRONT-END : JavaScript + CSS + JSP
 - DATABASE : MySQL
 ```

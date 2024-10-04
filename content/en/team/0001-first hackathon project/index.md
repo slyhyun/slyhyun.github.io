@@ -1,68 +1,68 @@
 ---
-title: 멋쟁이사자처럼 해커톤 프로젝트
+title: LikeLion Hackathon Project
 date: 2024-03-02
 ---
 
-촌스테이 - 시골 봉사 및 체험 매칭 플랫폼을 웹앱으로 제작하는 해커톤 프로젝트<br>
-멤버 : 안현, 박도현, 전은배, 임정민<br>
+Chonstay - The hackathon project to produce rural service and experience matching platform as web app<br>
+Member : 안현, 박도현, 전은배, 임정민<br>
 
 <!--more-->
 ```
-기능 명세서
+Functional Specification
 
-## 회원 가입 및 프로필 관리
-1. 주기능: 사용자 등록 및 정보 관리
-2. 상세기능
-- 간편 회원 가입 절차
-- 사용자 프로필 작성 및 수정
-- 프로필 사진 업로드
-- 자기소개 및 관심사 작성
-3. 설명
-사용자는 간편한 절차를 통해 회원 가입을 할 수 있으며, 가입 후 자신의 프로필을 작성하고 관리할 수 있습니다. 프로필에는 사진, 자기소개, 관심사 등을 입력하여 다른 사용자에게 자신의 정보를 공유할 수 있습니다.
+## Membership and Profile Management
+1. Periodic Function: User registration and information management
+2. Detailed Functions
+- Simple membership procedures
+- Creating and Modifying User Profiles
+- Upload a profile picture
+- Introduce yourself and write your interests
+3. Description
+Users can sign up for membership through a simple process, and after signing up, they can create and manage their own profiles. The profile can share their information with other users by entering photos, self-introduction, interests, and more.
 
-## 활동 등록 및 예약
-1. 주기능: 체험 활동의 등록과 예약
-2. 상세기능
-- 체험 활동의 세부 내용 등록
-- 활동 예약 시스템
-- 예약 확인 및 알림
-3. 설명
-노인은 자신이 제공하는 체험 활동의 세부 내용을 등록하고, 청년은 이를 예약할 수 있습니다. 예약이 완료되면 사용자에게 확인 메시지와 알림이 발송됩니다.
+## Register and Schedule Activities
+1. Periodic Function: registering and booking experience activities
+2. Detailed Functions
+- Register details of the experience activity
+- Activity Scheduling System
+- Reservation confirmation and notification
+3. Description
+Seniors can register details of the experience activities they offer, and young adults can book them. Once the reservation is complete, a confirmation message and notification will be sent to the user.
 
-## 평가 및 피드백 시스템
-1. 주기능: 체험 활동 평가 및 피드백 제공
-2. 상세기능
-- 상호 평가 시스템
-- 피드백 작성 기능
-- 높은 평점을 받은 사용자 보상
-3. 설명
-체험 활동이 종료된 후, 노인과 청년은 서로를 평가하고 피드백을 작성할 수 있습니다. 높은 평점을 받은 사용자는 보상을 받을 수 있습니다.
+## Evaluation and Feedback System
+1. Periodic Function: Evaluate experiential activities and provide feedback
+2. Detailed Functions
+- mutual evaluation system
+- Feedback writing function
+- Compensation for high-rated users
+3. Description
+After the hands-on activities are over, the elderly and young people can evaluate each other and write feedback. Users with high ratings can receive rewards.
 
-## 홈 화면
-1. 주기능: 주요 정보 및 체험 활동 추천
-2. 상세기능
-- 인기 체험 활동 노출
-- 추천 매칭 노출
-- 카테고리별 체험 활동 탐색
-3. 설명
-홈 화면에서는 인기 체험 활동과 추천 매칭을 노출하여 사용자들이 쉽게 활동을 탐색할 수 있도록 합니다. 카테고리별로 체험 활동을 분류하여 사용자 편의를 높입니다.
+## Home Screen
+1. Periodic Function: Recommendation of key information and experiential activities
+2. Detailed Functions
+- Exposing popular experience activities
+- Recommendation Matching Exposure
+- Explore experiential activities by category
+3. Description
+The home screen exposes popular experience activities and recommendation matching so that users can easily explore activities. It increases user convenience by classifying experience activities by category.
 
-## 프로필 페이지
-1. 주기능: 사용자 프로필 확인 및 관리
-2. 상세기능
-- 활동 내역 확인
-- 평점 및 후기 확인
-- 상대방 프로필 열람
-3. 설명
-사용자 프로필 페이지에서는 자신의 활동 내역과 평점, 후기를 확인할 수 있습니다. 또한, 상대방의 프로필과 활동 내역을 열람하여 보다 자세한 정보를 얻을 수 있습니다.
+## Profile Page
+1. Periodic Function: Checking and managing user profiles
+2. Detailed Functions
+- Check activity history
+- Review ratings and reviews
+- Viewing the other person's profile
+3. Description
+You can check your activity history, ratings, and reviews on the user profile page. You can also get more detailed information by browsing the other person's profile and activity history.
 
-## 체험 상세 페이지
-1. 주기능: 체험 활동 세부 정보 제공
-2. 상세기능
-- 체험 내용 설명
-- 일정 및 준비물 안내
-- 장소 정보 제공
-- 신청 및 예약 버튼
-3. 설명
-체험 상세 페이지에서는 체험 활동의 내용, 일정, 준비물, 장소 정보를 상세히 제공하며, 사용자가 직접 신청하고 예약할 수 있는 버튼을 제공합니다.
+## Experience Details Page
+1. Periodic Function: Provide details of experience activities
+2. Detailed Functions
+- Description of Experience
+- Schedule and supplies guide
+- Provide location information
+- Apply and Schedule buttons
+3. Description
+The Experience Details page provides detailed information on the contents, schedule, supplies, and places of the experience activities, and provides buttons for users to apply and make reservations themselves.
 ```

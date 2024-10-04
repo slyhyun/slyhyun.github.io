@@ -1,113 +1,113 @@
 ---
-title: CPU 동아리 홈페이지 제작 프로젝트
+title: CPU Club Homepage Production Project
 date: 2024-09-01
 ---
 
-CPU WEB - CPU 부원이 사용할 수 있는 동아리 홈페이지를 웹앱으로 제작하는 프로젝트<br>
-멤버 : 안현, 박도현, 김준혁, 김동준, 백서영, 오세연<br>
+CPU WEB - The project to produce a club homepage that can be used by CPU members through a web app<br>
+Member : 안현, 박도현, 김준혁, 김동준, 백서영, 오세연<br>
 
 <!--more-->
 ```
-기능 명세서
+Functional Specification
 
-## 유저 기능
-1. 주기능
-- 회원가입
-- 로그인
-- 로그아웃
-2. 비고
-- 회원가입 시 이메일 인증
-- 역할 (guest, member, admin)
-- 학번, 닉네임, 이메일 중복 금지
+## User Functions
+1. Periodic Function
+- Membership registration
+- Log in
+- Log out
+2. Remarks
+- E-mail authentication upon membership registration
+- Role (guest, member, admin)
+- Do not duplicate student numbers, nicknames, and emails
 
-## 유저 정보 관리 기능
-1. 주기능
-- 회원 정보 수정
-- 회원 정보 찾기
-- 회원 탈퇴
-2. 세부 기능
-- 닉네임, 비밀번호, 이름, 이메일 변경
-- 비밀번호 찾기
-3. 비고
-- 마이페이지 접속 시 비밀번호 확인
-- 이메일 변경 시 이메일 인증
-- 회원 탈퇴 시 비밀번호 확인
+## User Information Management Features
+1. Periodic Function
+- Modifying Membership Information
+- Finding membership information
+- withdrawal of membership
+2. Detailed Functions
+- Change nickname, password, name, email
+- Finding Passwords
+3. Remarks
+- Check password when accessing My Page
+- Email authentication when you change your email
+- Check the password when you leave the membership
 
-## 세션 기능
-1. 주기능
-- 세션 개설
-- 세션 조회
-- 세션 관리
-- 세션 신청
-2. 세부 기능
-- 세션 전체, 개별 조회
-- 세션 수정, 삭제
-- 최대 신청 인원
-- 페이징 기능
-3. 비고
-- 개설자, 관리자는 신청자 확인 가능
+## Session Functions
+1. Periodic Function
+- Opening a Session
+- Session Inquiry
+- Managing Sessions
+- Application for a session
+2. Detailed Functions
+- Session as a whole, individual inquiry
+- Modifying and deleting sessions
+- Maximum number of applicants
+- paging function
+3. Remarks
+- Openers and managers can check applicants
 
-## 스터디 기능
-1. 주기능
-- 스터디 개설
-- 스터디 조회
-- 스터디 관리
-- 스터디 신청
-2. 세부 기능
-- 스터디 전체, 개별 조회
-- 스터디 수정, 삭제
-- 최대 신청 인원
-- 페이징 기능
-3. 비고
-- 개설자, 관리자는 신청자 확인 가능
+## Study Functions
+1. Periodic Function
+- Open a study
+- Study Inquiry
+- Study Management
+- Study Application
+2. Detailed Functions
+- Study as a whole, individual inquiry
+- Modifying, deleting studies
+- Maximum number of applicants
+- paging function
+3. Remarks
+- Openers and managers can check applicants
 
-## 프로젝트 기능
-1. 주기능
-- 프로젝트 개설
-- 프로잭트 조회
-- 프로젝트 관리
-- 프로젝트 신청
-2. 세부 기능
-- 프로젝트 전체, 개별 조회
-- 프로젝트 수정, 삭제
-- 최대 신청 인원
-- 페이징 기능
-3. 비고
-- 개설자, 관리자는 신청자 확인 가능
+## Project Functions
+1. Periodic Function
+- Project Opening
+- Projact Inquiry
+- Project Management
+- Apply for a project
+2. Detailed Functions
+- Project as a whole, individual inquiry
+- Modifying, deleting projects
+- Maximum number of applicants
+- paging function
+3. Remarks
+- Openers and managers can check applicants
 
-## 게시판 기능
-1. 주기능
-- 게시글 작성
-- 게시글 조회
-- 게시글 관리
-2. 세부 기능
-- 게시글 전체, 개별 조회
-- 게시글 수정, 삭제
-- 페이징 기능
+## Bulletin Functions
+1. Periodic Function
+- Creating a Post
+- Look up the post
+- Managing Posts
+2. Detailed Functions
+- Full post, individual inquiry
+- Modifying and deleting posts
+- paging function
 
-## 댓글 기능
-1. 주기능
-- 댓글 작성
-- 댓글 조회
-- 댓글 관리
-2. 세부 기능
-- 댓글 수정, 삭제
+## Comment Functions
+1. Periodic Function
+- Write comments
+- View comments
+- Managing Comments
+2. Detailed Functions
+- Modify or delete comments
 
-## 관리자 기능
-1. 주기능
-- 회원 정보 관리
-- 세션, 스터디, 프로젝트 관리
-- 게시글, 댓글 관리
-2. 세부 기능
-- 회원 권한 수정
-- 회원 삭제
-- 세션, 스터디, 프로젝트 수정 및 삭제
-- 게시글, 댓글 수정 및 삭제
-3. 비고
-- 관리자 계정은 하나로 지정
+## Administrator Functions
+1. Periodic Function
+- Managing Member Information
+- Manage sessions, studies, and projects
+- Managing posts and comments
+2. Detailed Functions
+- Modifying Membership Rights
+- Delete membership
+- Modifying and deleting sessions, studies, and projects
+- Modify and delete posts, comments
+3. Remarks
+- Specify one administrator account
 
-## 기타 기능
-- 입부 신청 기능
-- 테마 설정 기능
-- 동아리 일정 기능
+## Other Functions
+- function to apply for enrollment
+- Theme Settings Features
+- club schedule function
 ```
