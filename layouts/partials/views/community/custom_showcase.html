@@ -47,6 +47,7 @@
       </div>
 
       {{ with $summary }}
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link"></a>
       <div class="article-style" style="font-size: 0.8em;">
         {{ . }}
       </div>
