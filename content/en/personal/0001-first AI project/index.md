@@ -1,6 +1,7 @@
 ---
 title: Artificial Intelligence Project 1
 date: 2024-03-01
+all_day: true
 ---
 
 The project to implement a route finding program using an A* algorithm

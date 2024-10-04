@@ -1,6 +1,7 @@
 ---
 title: LikeLion Hackathon Project
 date: 2024-03-02
+all_day: true
 ---
 
 Chonstay - The hackathon project to produce rural service and experience matching platform as web app<br>

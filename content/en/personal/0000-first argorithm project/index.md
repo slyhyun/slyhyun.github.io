@@ -1,6 +1,7 @@
 ---
 title: Algorithm Project
 date: 2023-09-01
+all_day: true
 ---
 
 The project to compare the performance of Prim and Kruskal algorithms

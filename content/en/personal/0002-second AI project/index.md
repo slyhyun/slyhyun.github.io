@@ -1,6 +1,7 @@
 ---
 title: Artificial Intelligence Project 2
 date: 2024-03-02
+all_day: true
 ---
 
 The project explaining how to implement and learn a logistic regression model for multi-class classification based on the MNIST dataset using Numpy and Scikit-learn

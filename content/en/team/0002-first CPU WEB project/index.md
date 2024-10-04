@@ -1,6 +1,7 @@
 ---
 title: CPU Club Homepage Production Project
 date: 2024-09-01
+all_day: true
 ---
 
 CPU WEB - The project to produce a club homepage that can be used by CPU members through a web app<br>
