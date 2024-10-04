@@ -66,30 +66,24 @@ sections:
       title: <span style="font-size:75%">Interests</span>
       text: I am currently studying the following fields of interest.<br><br><br><br>
       items:
-        - name: Artificial Intelligence (AI)
-          icon: code-branch
-          icon_pack: fas
-          description: <span style="font-size:90%">AI technologies such as machine learning, computer vision, and natural language processing.</span><br><br>
-        - name: Web Crawling
-          icon: globe
-          icon_pack: fas
-          description:  <span style="font-size:90%">Collecting and utilizing large amounts of data through web crawling.</span><br><br>
-        - name: Mathematics
-          icon: calculator
-          icon_pack: fas
-          description:  <span style="font-size:90%">Mathematical theories related to AI, such as linear algebra.</span><br><br>
-        - name: Backend Development 
-          icon: server
-          icon_pack: fas
-          description:  <span style="font-size:90%">Server construction and database utilization.</span><br><br>
-        - name: Frontend Development 
-          icon: laptop
-          icon_pack: fas
-          description:  <span style="font-size:90%">Building websites using tools like React.</span><br><br>
-        - name: App Development
-          icon: app-store-ios
+        - name: Python
+          icon: python
           icon_pack: fab
-          description:  <span style="font-size:90%">App development using Android Studio!</span><br><br>
+        - name: C/C++
+          icon: copyright
+          icon_pack: fab
+        - name: Java
+          icon: java
+          icon_pack: fab
+        - name: Node.js
+          icon: node-js
+          icon_pack: fab
+        - name: React
+          icon: react
+          icon_pack: fab
+        - name: Spring Boot
+          icon: leaf
+          icon_pack: fab
 
   - block: collection
     content:
