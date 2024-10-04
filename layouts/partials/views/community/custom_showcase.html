@@ -56,6 +56,9 @@
       <div class="article-date" style="font-size: 0.7em; color: #96979D; margin-top: 5px;">
         {{ if eq $item.Type "event" }}
           {{ partial "functions/get_event_dates" $item }}
+        {{ else }}
+          <!-- 디버그용: Type 값 확인 -->
+          <p>Item Type: {{ $item.Type }}</p>
         {{ end }}
       </div>
 
