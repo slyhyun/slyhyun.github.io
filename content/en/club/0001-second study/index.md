@@ -1,25 +1,25 @@
 ---
-title: C언어 스터디 2기
+title: 2nd C Study
 date: 2023-09-02
 ---
 
-프로젝트명 : 콘솔을 이용한 미로찾기 게임 구현<br>
-멤버 : 안현, 김락현, 정현환, 우예은<br>
+Project Name : Implementing a maze-hunting game using the console<br>
+Member : 안현, 김락현, 정현환, 우예은<br>
 
 <!--more-->
 ```
-기본 스터디 프로젝트 보고서
+Basic Study Project Report
 
-1. 팀명 : 딸기
-2. 프로젝트명 : 콘솔을 이용한 미로찾기 게임 구현
-3. 참여인원 : 안현, 김락현, 정현환, 우예은
-4. 기능 완성도 :
-  - 게임메뉴 작동(게임 시작, 게임 정보)
-  - 난이도 쉬움, 중간, 어려움 선택 가능
-  - 아이템(key)이 정상적으로 작동
-5. 실행 방법
-  - 메뉴에서 ws로 움직이고 스페이스 바로 선택을 합니다.
-  - 게임 중에는 wasd만 누릅니다, 스페이스 바를 누르면 안됩니다.
-  - +를 지나가려면 노란색 별을 먹어야 합니다. 
-  - 초록색 0에 도착하면 승리합니다.
+1. Team name: Strawberry
+2. Project Name: Implementing a maze-finding game using a console
+3. Participants: Ahn Hyun, Kim Rak Hyun, Jung Hyun Hwan, Woo Ye Eun
+4. Functionality Completion:
+- Game menu operation (start game, game information)
+- Difficulty Easy, Medium, Difficulty Selectable
+- Item (key) operating normally
+5. How to execute
+- Move to ws from the menu and select the space bar.
+- During the game, press wasd only, do not press the space bar.
+- You have to eat a yellow star to pass +.
+- If you get to green 0, you win.
 ```

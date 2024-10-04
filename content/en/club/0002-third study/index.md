@@ -1,27 +1,27 @@
 ---
-title: C언어 스터디 3기
+title: 3rd C Study
 date: 2024-03-01
 ---
 
-프로젝트명 : C언어를 이용해 크롬 다이노 게임 구현<br>
+Project Name : Implementing a Chrome Dino Game Using C Language<br>
 멤버 : 안현, 김선엽, 송재민, 윤규리, 전민상, 정수교, 최민정<br>
 
 <!--more-->
 ```
-기본 스터디 프로젝트 보고서
+Basic Study Project Report
 
-1. 팀명 : 선엽이 업고 튀어
-2. 프로젝트명 : C언어를 이용해 크롬 다이노 게임 구현
-3. 참여인원 : 안현, 김선엽, 송재민, 윤규리, 전민상, 정수교, 최민정
-4. 기능 완성도 :
-  - 메인화면 (게임 시작, 랭킹, 게임 설명, 게임 종료) 구현
-  - 점프, 숙이기 구현
-  - 장애물, 목숨 개수 구현
-  - 시간 별 스코어 및 레벨(속도) 증가
-5. 실행 방법
-  - 메인 화면에서 1을 입력 시 게임 시작, 2를 입력 시 랭킹, 3을 입력 시 게임 설명, 4를 입력 시 게임 종료입니다.
-  - 게임 시작 후 z를 입력하면 공룡이 점프를 하고, c를 입력하면 숙입니다.
-  - 장애물(나무, 새)에 부딪히면 목숨(총 3개)이 1개 감소합니다.
-  - 10초마다 난이도가 올라가며, 속도가 증가합니다.
-  - 목숨을 전부 소모하면 최종 점수가 랭킹에 등록됩니다.
+1. Team name: Sunyeop runs on his back
+2. Project Name: Implementing a Chrome Dino game using language C
+3. Participants: Ahn Hyun, Kim Sun-yeop, Song Jae-min, Yoon Kyu-ri, Jeon Min-sang, Jung Soo-kyo, Choi Min-jeong
+4. Functionality Completion:
+- Implement the main screen (starting the game, ranking, explaining the game, ending the game)
+- Jumping and bending implementation
+- Obstacles Realize the Number of Lives
+- Increase hourly score and level (speed)
+5. How to execute
+- When entering 1 on the main screen, the game starts, the ranking when entering 2, the game description when entering 3, and the game ends when entering 4.
+- If you enter z after the game starts, the dinosaur jumps, and if you enter c, it bows.
+- If you hit an obstacle (wood, bird), your life (total of 3) will be reduced by one.
+- The difficulty level increases every 10 seconds, and the speed increases.
+- If you spend all your life, your final score will be listed in the rankings.
 ```

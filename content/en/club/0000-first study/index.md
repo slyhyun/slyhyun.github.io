@@ -1,28 +1,27 @@
 ---
-title: C언어 스터디 1기
+title: 1st C Study
 date: 2023-09-01
 ---
-
-프로젝트명 : 콘솔을 이용한 윷놀이 게임 구현<br>
-멤버 : 안현, 박태정, 이다영, 이시연, 양두태, 윤재용<br>
+Project Name : Implementation of a game of yut using a console<br>
+Member : 안현, 박태정, 이다영, 이시연, 양두태, 윤재용<br>
 
 <!--more-->
 ```
-기본 스터디 프로젝트 보고서
+Basic Study Project Report
 
-1. 팀명 : 5팀이라고 5해한 2팀
-2. 프로젝트명 : 콘솔을 이용한 윷놀이 게임 구현
-3. 참여인원 : 안현, 양두태, 윤재용, 이시연, 이다영, 박태정
-4. 기능 완성도 :
-  - 말 출력 함수 
-  - 콘솔로 윷놀이판 구현 
-  - 말 잡기 기능 
-  - 윷 또는 모가 나오거나 상대팀 말을 잡으면 한 번 더 던지기 
-  - 게임 결과 출력 
-5. 실행 방법
-  - 숫자 키 7번을 눌러 윷을 던집니다. (동그라미팀 → 네모팀)
-  - 숫자 키 6번을 눌러 나온 결과에 따라 말을 이동시킵니다. 
-  - 윷 또는 모가 나왔을 경우, 다시 한 번 1~2번의 과정을 반복합니다.
-  - 말이 잡혔을 경우, 잡은 팀은 다시 1~2번의 과정을 반복하고 잡힌 팀의 말은 원점으로 돌아갑니다.
-  - 말이 한 바퀴 돌아 원점으로 돌아오면 게임이 종료됩니다.
+1. Team name: 5 teams, 5 years old, 2 teams
+2. Project Name: Implementing a game of yut using a console
+3. Participants: Ahn Hyun, Yang Doo-tae, Yoon Jae-yong, Lee Si-yeon, Lee Da-young, Park Tae-jung
+4. Functionality Completion:
+- speech output function
+- Yutnori with console
+- a horse-riding function
+- If Yut or Mo comes out or the other team catches the horse, throw it one more time
+- Output game results
+5. How to execute
+- Press the number key 7 to throw the yut. (Team Round → Team Square)
+- Press the numeric key 6 to move the horse according to the result.
+- If yut or mo comes out, repeat the process 1 or 2 again.
+- If the horse is caught, the team that catches the horse repeats the process one or two times again, and the horse of the team that catches the horse goes back to square one.
+- The game will end when the horse goes around once and returns to square one.
 ```
