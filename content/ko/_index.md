@@ -26,6 +26,10 @@ sections:
             </p>
           </div>
         </div>
+      button:  # `button` 설정을 content 내부로 이동
+        text: "최근 작성 문서"  # 버튼의 텍스트 설정
+        url: "uploads/document.pdf"  # 버튼의 링크 설정
+        type: primary  # 버튼의 타입 (primary, secondary 등)
     design:
       columns: '1'
       background:
@@ -36,9 +40,6 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.5  # 투명도 조절
-    button:
-      text: 최근 작성 문서
-      url: uploads/document.pdf
   
   - block: features
     id: features
