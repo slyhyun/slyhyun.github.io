@@ -1,5 +1,5 @@
 ---
-title: 동아리 활동
+title: '<div style="text-align: center;">동아리 활동</div>'
 
 # Listing view
 view: community/custom_card
