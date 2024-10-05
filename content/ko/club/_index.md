@@ -1,5 +1,5 @@
 ---
-title: '<div style="text-align: center;">동아리 활동</div>'
+title: 동아리 활동
 
 # Listing view
 view: community/custom_card
@@ -8,4 +8,6 @@ view: community/custom_card
 banner:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
   image: 'activity.jpg'
+
+title_style: "text-align: center; font-size: 2em; margin: 20px 0;"
 ---
