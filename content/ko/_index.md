@@ -21,15 +21,12 @@ sections:
           <div style="text-align: left; max-width: 500px;">
             <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">자기소개</p>
             <p style="font-size: 100%;color: white; margin-top: 20px;">
-              전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.<br>
-              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd; margin-top: 20px; ">깃허브 바로가기</a>
+              전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.<br><br><br>
+              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd; margin-top: 20px; ">깃허브 바로가기</a><br><br><br>
               <a href="./uploads/document.pdf" style="background-color: #946efd; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">최근 작성 문서</a>
             </p>
           </div>
         </div>
-      cta:
-        label: 최근 작성 문서
-        url: /uploads/document.pdf
     design:
       columns: '1'
       background:
@@ -40,15 +37,6 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.5  # 투명도 조절
-  
-  - block: features
-    content:
-      title: <span style="font-size:70%"> 최근 작성 문서를 확인하세요! </span>
-      cta:
-        label: 다운로드
-        url: /uploads/document.pdf
-
-      
 
   - block: features
     id: features

@@ -21,8 +21,9 @@ sections:
           <div style="text-align: left; max-width: 500px;">
             <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">About Me</p>
             <p style="font-size: 100%;color: white; margin-top: 20px;">
-              I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.<br>
-              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd;" margin-top: 20px; >Go To Github</a>
+              I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.<br><br><br>
+              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd;" margin-top: 20px; >Go To Github</a><br><br><br>
+              <a href="./uploads/document.pdf" style="background-color: #946efd; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Recent Written Document</a>
             </p>
           </div>
         </div>
@@ -36,14 +37,6 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.5  # 투명도 조절
-
-  - block: features
-    content:
-      title: <span style="font-size:120%"> Check out our latest documents! </span>
-      button:
-        text: Download
-        url: uploads/document.pdf
-  
 
   - block: features
     id: features
