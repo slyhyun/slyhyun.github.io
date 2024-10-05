@@ -9,16 +9,21 @@
 }
 
 .navbar-brand:hover {
-  color: #946efd; 
+  color: #946efd !important; 
 }
 
+/* 수정된 선택자: 현재 HTML 구조에 맞게 변경 */
+.dropdown-menu .dropdown-item:hover {
+  color: #946efd !important; /* 호버 시 색상을 변경 */
+}
 
+/* 추가적인 선택자: 드롭다운 링크에 대한 호버 스타일 적용 */
 .dropdown-menu .dropdown-item span:hover {
-  color: #946efd;
+  color: rgb(150, 150, 150) !important; /* 호버 시 스팬 요소의 색상 변경 */
 }
 
 #search_toggle:hover {
-  color: #946efd;
+  color: #946efd !important;
 }
 
 .avatar {
