@@ -13,16 +13,16 @@ sections:
           <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
           <div style="display: flex; flex-direction: column; align-items: center;">
             <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 100%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 10px;">
-            <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">An Hyun</p>
+            <p style="font-size: 120%; font-weight: bold; margin: 10px 0; color: white; ">An Hyun</p>
             <p style="font-size: 100%;color: white;">Jeonbuk National University</p>
             <p style="font-size: 80%;color: white;">Department of Computer Science and Engineering</p>
           </div>
           <!-- 오른쪽: 소개 정보 -->
           <div style="text-align: left; max-width: 500px;">
             <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">About Me</p>
-            <p style="font-size: 100%;color: white;">
+            <p style="font-size: 100%;color: white; margin-top: 20px;">
               I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.<br>
-              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd;">Go To Github</a>
+              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd;" margin-top: 20px; >Go To Github</a>
             </p>
           </div>
         </div>
@@ -36,11 +36,15 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.5  # 투명도 조절
-    button:
-      text: 최근 작성 문서
-      url: uploads/document.pdf
+
+  - block: features
+    content:
+      title: <span style="font-size:120%"> Check out our latest documents! </span>
+      button:
+        text: Download
+        url: uploads/document.pdf
   
-  
+
   - block: features
     id: features
     content:
