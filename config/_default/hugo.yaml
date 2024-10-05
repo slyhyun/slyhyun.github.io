@@ -1,7 +1,7 @@
 # hugo.yaml
 
 title: slyhyun  # Website name
-baseURL: 'https://slyhyun.com/' # Website URL
+baseURL: 'https://slyhyun.github.io/' # Website URL
 socialImage: "media/AnHyun.png"
 
 ############################
@@ -84,3 +84,9 @@ params:
     en: "Jan 2, 2006"     
     ko: "1월 2, 2006" 
   socialImage: "media/AnHyun.png"
+  seo:  # SEO 설정 추가
+    site_type: Person
+    local_business_type: ''
+    org_name: '전북대학교'
+    description: '전북대학교 안현'
+    keywords: ['안현','전북대학교','전북대 안현']
