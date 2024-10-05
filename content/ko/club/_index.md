@@ -8,6 +8,8 @@ view: community/custom_card
 banner:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
   image: 'activity.jpg'
-
-title_style: "text-align: center; font-size: 2em; margin: 20px 0;"
 ---
+
+<div style="text-align: center; font-size: 2em; font-weight: bold;">
+  동아리 활동
+</div>
