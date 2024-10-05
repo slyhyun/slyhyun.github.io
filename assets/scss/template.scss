@@ -7,3 +7,25 @@
 .cta-group {
   justify-content: center;
 }
+
+.navbar-brand:hover {
+  color: #946efd; 
+}
+
+.nav-item .nav-link:hover {
+  color: #946efd; 
+}
+
+.nav-dropdown-item .nav-dropdown-link:hover {
+  color: rgb(150, 150, 150);
+}
+
+#search_toggle:hover {
+  color: #946efd;
+}
+
+.avatar {
+  border-radius: 0 !important; 
+  width: 100% !important;    
+  height: 100% !important;    
+}

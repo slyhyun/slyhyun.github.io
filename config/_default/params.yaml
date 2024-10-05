@@ -18,7 +18,7 @@ marketing:
     local_business_type: ''
     org_name: '전북대학교'
     description: '전북대학교 안현'
-    keywords: ['안현','전북대학교']
+    keywords: ['안현','전북대학교','전북대 안현']
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -33,12 +33,16 @@ marketing:
 header:
   navbar:
     enable: true
+    blox: 'navbar'
     align: c
     show_logo: true
     show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: true
+    logo:
+      filename: "icon.png"
+      text: "SLYHYUN"
 
 # Site footer
 
