@@ -1,34 +1,39 @@
-// Make page header alignment consistent with widget page header alignment
+/* 페이지 헤더 정렬 */
 .universal-wrapper h1 {
   text-align: center;
 }
 
-// Center the CTA shortcode button
+/* CTA 버튼 중앙 정렬 */
 .cta-group {
   justify-content: center;
 }
 
-.navbar-brand:hover {
-  color: #946efd !important; 
-}
-
-.nav-link.dropdown-toggle:hover {
-  color: #946efd !important;
-
-}
-
-.dropdown-menu .dropdown-item:hover {
+/* 네비게이션바의 브랜드 요소 호버 스타일 */
+.navbar .navbar-brand:hover {
   color: #946efd !important;
 }
 
-.dropdown-menu .dropdown-item span:hover {
+/* 드롭다운 토글 요소 호버 스타일 */
+.navbar .nav-link.dropdown-toggle:hover {
   color: #946efd !important;
 }
 
-#search_toggle:hover {
+/* 드롭다운 메뉴 항목 호버 스타일 */
+.navbar .dropdown-menu .dropdown-item:hover {
   color: #946efd !important;
 }
 
+/* 드롭다운 메뉴의 텍스트(span) 호버 스타일 */
+.navbar .dropdown-menu .dropdown-item span:hover {
+  color: #946efd !important;
+}
+
+/* 검색 버튼 호버 스타일 */
+.navbar #search_toggle:hover {
+  color: #946efd !important;
+}
+
+/* 아바타 스타일 */
 .avatar {
   border-radius: 0 !important; 
   width: 100% !important;    
