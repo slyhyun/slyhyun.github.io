@@ -8,5 +8,5 @@ flip_alt_rows: true
 # Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
-  image: 'researchpaper.jpg'
+  image: 'project.jpg'
 ---
