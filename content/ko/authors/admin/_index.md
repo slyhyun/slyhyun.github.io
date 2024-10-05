@@ -48,15 +48,15 @@ skills:
       - name: 파이썬
         description: ''
         percent: 60
-        icon: devicon/python
+        icon: python
       - name: C/C++
         description: ''
         percent: 80
-        icon: devicon/c
+        icon: copyright
       - name: 자바
         description: ''
         percent: 80
-        icon: devicon/java
+        icon: java
   - name: 프레임워크
     color: '#28a745'
     color_border: '#2ecc71'
@@ -64,15 +64,15 @@ skills:
       - name: 노드js
         description: ''
         percent: 40
-        icon: devicon/nodejs
+        icon: node-js
       - name: 리액트
         description: ''
         percent: 60
-        icon: devicon/react
+        icon: react
       - name: 스프링부트
         description: ''
         percent: 80
-        icon: devicon/spring
+        icon: leaf
 
 # Personal goals
 goals:
