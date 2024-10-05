@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_night: minimal
-  theme_day: minimal
+  theme_night: sky
+  theme_day: purple
   font: native
   font_size: L
 
