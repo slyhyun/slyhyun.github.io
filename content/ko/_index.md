@@ -22,12 +22,10 @@ sections:
             <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">자기소개</p>
             <p style="font-size: 100%;color: white;">
               전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.<br>
+              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd;">깃허브 바로가기</a>
             </p>
           </div>
         </div>
-      button:
-        text: 최근 작성 문서
-        url: uploads/document.pdf
     design:
       columns: '1'
       background:
@@ -38,6 +36,9 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.5  # 투명도 조절
+    button:
+      text: 최근 작성 문서
+      url: uploads/document.pdf
   
   - block: features
     id: features

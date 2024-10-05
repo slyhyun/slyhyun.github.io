@@ -22,12 +22,10 @@ sections:
             <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">About Me</p>
             <p style="font-size: 100%;color: white;">
               I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.<br>
+              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd;">Go To Github</a>
             </p>
           </div>
         </div>
-      button:
-        text: Recently Created Document
-        url: uploads/document.pdf
     design:
       columns: '1'
       background:
@@ -38,6 +36,9 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.5  # 투명도 조절
+    button:
+      text: 최근 작성 문서
+      url: uploads/document.pdf
   
   
   - block: features
