@@ -19,11 +19,15 @@ sections:
           </div>
           <!-- 오른쪽: 소개 정보 -->
           <div style="text-align: left; max-width: 500px;">
+            <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">About Me</p>
             <p style="font-size: 100%;color: white;">
               I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.<br>
             </p>
           </div>
         </div>
+      button:
+        text: Recently Created Document
+        url: uploads/document.pdf
     design:
       columns: '1'
       background:

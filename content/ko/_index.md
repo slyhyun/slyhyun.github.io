@@ -19,11 +19,15 @@ sections:
           </div>
           <!-- 오른쪽: 소개 정보 -->
           <div style="text-align: left; max-width: 500px;">
+            <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">자기소개</p>
             <p style="font-size: 100%;color: white;">
               전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.<br>
             </p>
           </div>
         </div>
+      button:
+        text: 최근 작성 문서
+        url: uploads/document.pdf
     design:
       columns: '1'
       background:
