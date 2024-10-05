@@ -74,6 +74,16 @@ minify:
   _merge: deep
 
 ############################
+## SITEMAP 설정 추가
+############################
+
+sitemap:
+  changefreq: "weekly"  # 사이트 업데이트 빈도
+  priority: 0.5         # 페이지 우선순위 (0.1 ~ 1.0)
+  filename: "sitemap.xml"  # 사이트맵 파일 이름
+
+
+############################
 ## CUSTOM PARAMETERS (params)
 ############################
 
