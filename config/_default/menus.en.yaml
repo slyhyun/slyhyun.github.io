@@ -10,7 +10,7 @@ main:
     identifier: introduce
     weight: 10
   - name: Profile
-    url: author/안현
+    url: author/an-hyun
     parent: introduce
     weight: 10
   - name: Skill
