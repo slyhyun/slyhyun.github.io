@@ -2,7 +2,6 @@
 
 title: slyhyun  # Website name
 baseURL: 'https://slyhyun.github.io/' # Website URL
-socialImage: "media/AnHyun.png"
 
 ############################
 ## LANGUAGE
@@ -93,7 +92,6 @@ params:
   date_format:
     en: "Jan 2, 2006"     
     ko: "1월 2, 2006" 
-  socialImage: "media/AnHyun.png"
   seo:  # SEO 설정 추가
     site_type: Person
     local_business_type: ''
