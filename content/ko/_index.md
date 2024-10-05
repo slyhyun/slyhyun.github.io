@@ -26,6 +26,9 @@ sections:
             </p>
           </div>
         </div>
+      cta:
+        label: 최근 작성 문서
+        url: /uploads/document.pdf
     design:
       columns: '1'
       background:
@@ -40,9 +43,9 @@ sections:
   - block: features
     content:
       title: <span style="font-size:70%"> 최근 작성 문서를 확인하세요! </span>
-      button:
-        text: 다운로드
-        url: uploads/document.pdf
+      cta:
+        label: 다운로드
+        url: /uploads/document.pdf
 
       
 
