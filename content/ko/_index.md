@@ -47,21 +47,27 @@ sections:
         - name: 파이썬
           icon: python
           icon_pack: fab
+          icon_color: "#946efd"
         - name: C/C++
           icon: copyright
           icon_pack: fas
+          icon_color: "#946efd"
         - name: 자바
           icon: java
           icon_pack: fab
+          icon_color: "#946efd"
         - name: 노드js
           icon: node-js
           icon_pack: fab
+          icon_color: "#946efd"
         - name: 리액트
           icon: react
           icon_pack: fab
+          icon_color: "#946efd"
         - name: 스프링부트
           icon: leaf
           icon_pack: fas
+          icon_color: "#946efd"
 
 
   - block: slider

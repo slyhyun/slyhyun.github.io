@@ -47,21 +47,27 @@ sections:
         - name: Python
           icon: python
           icon_pack: fab
+          icon_color: "#946efd"
         - name: C/C++
           icon: copyright
           icon_pack: fas
+          icon_color: "#946efd"
         - name: Java
           icon: java
           icon_pack: fab
+          icon_color: "#946efd"
         - name: Node.js
           icon: node-js
           icon_pack: fab
+          icon_color: "#946efd"
         - name: React
           icon: react
           icon_pack: fab
+          icon_color: "#946efd"
         - name: Spring Boot
           icon: leaf
           icon_pack: fas
+          icon_color: "#946efd"
 
   - block: slider
     content:
