@@ -22,7 +22,7 @@ sections:
             <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">About Me</p>
             <p style="font-size: 100%;color: white; margin-top: 20px;">
               I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.<br><br><br>
-              <a href="https://slyhyun.github.io/uploads/document.pdf" style="background-color: #946efd; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Recent Written Document</a><br><br><br>
+              <a href="uploads/document.pdf" style="background-color: #946efd; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">Recent Written Document</a><br><br><br>
               <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd;" margin-top: 20px; >Go To Github</a>
             </p>
           </div>
