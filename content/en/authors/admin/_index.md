@@ -106,3 +106,4 @@ user_groups:
 
 
 ---
+I'm An Hyun, a third-year computer engineering and science student. I love playing, but I have to work hard in the end because it takes money and time to play. I am studying to do what I want to do and what is comfortable and fun. While studying in the IT field, I think I can keep going by seeing myself happy when I solve a problem that has not been solved, even though I think I will never be able to let go of my study forever. I will study hard in a comfortable chair in a comfortable office, looking forward to the day when I will have fun working!
