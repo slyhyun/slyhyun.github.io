@@ -1,7 +1,7 @@
 # hugo.yaml
 
 title: slyhyun  # Website name
-baseURL: 'https://slyhyun.github.io/' # Website URL
+baseURL: 'https://slyhyun.com/' # Website URL
 socialImage: "media/AnHyun.png"
 
 ############################
@@ -83,3 +83,4 @@ params:
   date_format:
     en: "Jan 2, 2006"     
     ko: "1월 2, 2006" 
+  socialImage: "media/AnHyun.png"
