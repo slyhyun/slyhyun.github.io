@@ -1,5 +1,5 @@
 ---
-title: In-School Plan
+title:
 
 # Listing view
 view: community/custom_compact
@@ -9,3 +9,6 @@ banner:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
   image: 'plan.jpg'
 ---
+<div style="text-align: center; font-size: 2em; font-weight: bold;">
+  In-School Plan
+</div>

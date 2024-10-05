@@ -1,5 +1,5 @@
 ---
-title: Team Project
+title:
 
 # Listing view
 view: community/custom_showcase
@@ -10,3 +10,6 @@ banner:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
   image: 'project.jpg'
 ---
+<div style="text-align: center; font-size: 2em; font-weight: bold;">
+  Team Project
+</div>
