@@ -1,6 +1,6 @@
 ---
 # Display name
-title:
+title: 안현
 
 # Full Name (for SEO)
 first_name: 현
