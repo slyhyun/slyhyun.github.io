@@ -22,8 +22,8 @@ sections:
             <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">자기소개</p>
             <p style="font-size: 100%;color: white; margin-top: 20px;">
               전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.<br><br><br>
-              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd; margin-top: 20px; ">깃허브 바로가기</a><br><br><br>
-              <a href="./uploads/document.pdf" style="background-color: #946efd; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">최근 작성 문서</a>
+              <a href="./uploads/document.pdf" style="background-color: #946efd; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 100%;">최근 작성 문서</a><br><br><br>
+              <a href="https://github.com/slyhyun" target="_blank" style="text-decoration: underline; color: #946efd; margin-top: 20px; ">깃허브 바로가기</a>
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ sections:
           align: center
           background:
             image:
-              filename: code1.jpg
+              filename: back.jpg
               filters:
                 brightness: 0.5
             position: center
@@ -83,7 +83,7 @@ sections:
           align: center
           background:
             image:
-              filename: code2.jpg
+              filename: front.jpg
               filters:
                 brightness: 0.5
             position: center
@@ -94,7 +94,7 @@ sections:
           align: center
           background:
             image:
-              filename: researchpaper.jpg
+              filename: ai.jpg
               filters:
                 brightness: 0.5
             position: center
