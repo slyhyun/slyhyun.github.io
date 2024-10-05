@@ -2,6 +2,7 @@
 
 title: slyhyun  # Website name
 baseURL: 'https://slyhyun.github.io/' # Website URL
+socialImage: "media/AnHyun.png"
 
 ############################
 ## LANGUAGE
