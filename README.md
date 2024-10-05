@@ -55,4 +55,4 @@ Hugo 탬플릿을 기반으로 제작하였습니다
 각각의 카드를 클릭하면 자세한 계획 내용을 확인할 수 있습니다.
 
 ##
-사이트 링크(https://coti00.github.io)
+사이트 링크(https://slyhyun.github.io)
