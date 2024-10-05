@@ -1,6 +1,6 @@
 # hugo.yaml
 
-title: 안현  # Website name
+title: slyhyun  # Website name
 baseURL: 'https://slyhyun.github.io/' # Website URL
 socialImage: "media/AnHyun.png"
 
@@ -12,13 +12,13 @@ languages:
   ko:
     languageCode: ko
     contentDir: content/ko
-    title: "안현"
+    title: "slyhyun"
     params:
       description: "안현 웹사이트"
   en: 
     languageCode: en
     contentDir: content/en
-    title: "안현"
+    title: "slyhyun"
     params:
       description: "An Hyun Website"
 
