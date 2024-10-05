@@ -5,15 +5,35 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     content:
-      title: |
-        안현
-      image:
-        filename: AnHyun.jpg
+      title:
       text: |
-        <br>
-        전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.
+        <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+          <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 100%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 10px;">
+            <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">안현</p>
+            <p style="font-size: 95%;color: white;">전북대학교</p>
+            <p style="font-size: 95%;color: white;">컴퓨터공학부</p>
+          </div>
+          <!-- 오른쪽: 소개 정보 -->
+          <div style="text-align: left; max-width: 500px;">
+            <p style="font-size: 95%;color: white;">
+              전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.<br>
+            </p>
+          </div>
+        </div>
+    design:
+      columns: '1'
+      background:
+        image:
+          filename: programmer.jpg
+          filters:
+            brightness: 0.8
+        overlay:  # 오버레이 추가
+          color: '#ffffff'  # 흰색
+          opacity: 0.5  # 투명도 조절
   
   - block: slider
     content:
