@@ -1,39 +1,38 @@
-/* 페이지 헤더 정렬 */
-.universal-wrapper h1 {
-  text-align: center;
-}
-
-/* CTA 버튼 중앙 정렬 */
-.cta-group {
-  justify-content: center;
-}
-
-/* 네비게이션바의 브랜드 요소 호버 스타일 */
-.navbar .navbar-brand:hover {
+/* 네비게이션 바의 브랜드 요소 호버 스타일 */
+.navbar-brand:hover {
   color: #946efd !important;
 }
 
-/* 드롭다운 토글 요소 호버 스타일 */
+/* 네비게이션 링크 (nav-link) 클래스에 대한 호버 스타일 */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #946efd !important;
+}
+
+/* 드롭다운 토글 버튼 (.dropdown-toggle) 호버 스타일 */
 .navbar .nav-link.dropdown-toggle:hover {
   color: #946efd !important;
 }
 
-/* 드롭다운 메뉴 항목 호버 스타일 */
-.navbar .dropdown-menu .dropdown-item:hover {
+/* 드롭다운 메뉴 항목 (.dropdown-item) 호버 스타일 */
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus {
   color: #946efd !important;
 }
 
-/* 드롭다운 메뉴의 텍스트(span) 호버 스타일 */
-.navbar .dropdown-menu .dropdown-item span:hover {
+/* 드롭다운 메뉴의 텍스트(span)에 대한 호버 스타일 */
+.navbar .dropdown-menu .dropdown-item span:hover,
+.navbar .dropdown-menu .dropdown-item span:focus {
   color: #946efd !important;
 }
 
-/* 검색 버튼 호버 스타일 */
-.navbar #search_toggle:hover {
+/* 검색 버튼 (.js-search) 호버 스타일 */
+.navbar .js-search:hover,
+.navbar .js-search:focus {
   color: #946efd !important;
 }
 
-/* 아바타 스타일 */
+/* 아바타 요소 스타일 */
 .avatar {
   border-radius: 0 !important; 
   width: 100% !important;    
