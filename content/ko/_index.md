@@ -14,12 +14,12 @@ sections:
           <div style="display: flex; flex-direction: column; align-items: center;">
             <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 100%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 10px;">
             <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">안현</p>
-            <p style="font-size: 95%;color: white;">전북대학교</p>
-            <p style="font-size: 95%;color: white;">컴퓨터공학부</p>
+            <p style="font-size: 100%;color: white;">전북대학교</p>
+            <p style="font-size: 80%;color: white;">컴퓨터공학부</p>
           </div>
           <!-- 오른쪽: 소개 정보 -->
           <div style="text-align: left; max-width: 500px;">
-            <p style="font-size: 95%;color: white;">
+            <p style="font-size: 100%;color: white;">
               전북대학교 컴퓨터공학부 3학년 안현입니다. 백엔드 개발자를 지망하고 있습니다.<br>
             </p>
           </div>
@@ -28,13 +28,39 @@ sections:
       columns: '1'
       background:
         image:
-          filename: programmer.jpg
+          filename: star.jpg
           filters:
-            brightness: 0.8
+            brightness: 0.5
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.5  # 투명도 조절
   
+  - block: features
+    id: features
+    content:
+      title: <span style="font-size:75%">기술 스택</span>
+      text: 
+      items:
+        - name: 파이썬
+          icon: python
+          icon_pack: fab
+        - name: C/C++
+          icon: copyright
+          icon_pack: fas
+        - name: 자바
+          icon: java
+          icon_pack: fab
+        - name: 노드js
+          icon: node-js
+          icon_pack: fab
+        - name: 리액트
+          icon: react
+          icon_pack: fab
+        - name: 스프링부트
+          icon: leaf
+          icon_pack: fas
+
+
   - block: slider
     content:
       slides:
@@ -79,31 +105,6 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 3000
-
-  - block: features
-    id: features
-    content:
-      title: <span style="font-size:75%">기술 스택</span>
-      text: 
-      items:
-        - name: 파이썬
-          icon: python
-          icon_pack: fab
-        - name: C/C++
-          icon: copyright
-          icon_pack: fas
-        - name: 자바
-          icon: java
-          icon_pack: fab
-        - name: 노드js
-          icon: node-js
-          icon_pack: fab
-        - name: 리액트
-          icon: react
-          icon_pack: fab
-        - name: 스프링부트
-          icon: leaf
-          icon_pack: fas
 
   - block: collection
     content:

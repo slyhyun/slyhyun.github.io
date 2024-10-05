@@ -5,16 +5,62 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     content:
-      title: |
-        An Hyun
-      image:
-        filename: AnHyun.jpg
+      title:
       text: |
-        <br>
-        I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.
+        <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+          <!-- 왼쪽: 프로필 사진과 이름, 학교 정보 -->
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="avatar.jpg" alt="프로필 사진" style="border-radius: 100%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 10px;">
+            <p style="font-size: 120%; font-weight: bold; margin: 5px 0;color: white;">An Hyun</p>
+            <p style="font-size: 100%;color: white;">Jeonbuk National University</p>
+            <p style="font-size: 80%;color: white;">Department of Computer Science and Engineering</p>
+          </div>
+          <!-- 오른쪽: 소개 정보 -->
+          <div style="text-align: left; max-width: 500px;">
+            <p style="font-size: 100%;color: white;">
+              I'm An Hyun, a third-year computer engineering and science student at JBNU. I want to be a back-end developer.<br>
+            </p>
+          </div>
+        </div>
+    design:
+      columns: '1'
+      background:
+        image:
+          filename: star.jpg
+          filters:
+            brightness: 0.5
+        overlay:  # 오버레이 추가
+          color: '#ffffff'  # 흰색
+          opacity: 0.5  # 투명도 조절
   
+  
+  - block: features
+    id: features
+    content:
+      title: <span style="font-size:75%">Tech Stack</span>
+      text: 
+      items:
+        - name: Python
+          icon: python
+          icon_pack: fab
+        - name: C/C++
+          icon: copyright
+          icon_pack: fas
+        - name: Java
+          icon: java
+          icon_pack: fab
+        - name: Node.js
+          icon: node-js
+          icon_pack: fab
+        - name: React
+          icon: react
+          icon_pack: fab
+        - name: Spring Boot
+          icon: leaf
+          icon_pack: fas
+
   - block: slider
     content:
       slides:
@@ -59,31 +105,6 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 3000
-
-  - block: features
-    id: features
-    content:
-      title: <span style="font-size:75%">Tech Stack</span>
-      text: 
-      items:
-        - name: Python
-          icon: python
-          icon_pack: fab
-        - name: C/C++
-          icon: copyright
-          icon_pack: fas
-        - name: Java
-          icon: java
-          icon_pack: fab
-        - name: Node.js
-          icon: node-js
-          icon_pack: fab
-        - name: React
-          icon: react
-          icon_pack: fab
-        - name: Spring Boot
-          icon: leaf
-          icon_pack: fas
 
   - block: collection
     content:

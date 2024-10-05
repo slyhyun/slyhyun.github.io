@@ -26,6 +26,26 @@
   color: #946efd !important;
 }
 
+/* 드롭다운 메뉴의 항목이 활성화된 상태 (예: 선택된 상태)에 대한 스타일 */
+.navbar .dropdown-menu .dropdown-item:active,
+.navbar .dropdown-menu .dropdown-item[aria-selected="true"],
+.navbar .dropdown-menu .dropdown-item.dropdown-item-active,
+.navbar .dropdown-menu .dropdown-item.active {
+  color: #946efd !important; /* 활성화된 항목의 텍스트 색상 */
+  background-color: transparent !important; /* 필요 시 배경색 설정 */
+  font-weight: bold; /* 선택된 항목을 강조하기 위해 굵게 */
+}
+
+/* 다크 모드에서의 활성화 상태에도 동일한 스타일 적용 */
+body.dark-mode .navbar .dropdown-menu .dropdown-item:active,
+body.dark-mode .navbar .dropdown-menu .dropdown-item[aria-selected="true"],
+body.dark-mode .navbar .dropdown-menu .dropdown-item.dropdown-item-active,
+body.dark-mode .navbar .dropdown-menu .dropdown-item.active {
+  color: #946efd !important; /* 활성화된 항목의 텍스트 색상 */
+  background-color: transparent !important; /* 필요 시 배경색 설정 */
+  font-weight: bold; /* 선택된 항목을 강조하기 위해 굵게 */
+}
+
 /* 검색 버튼 (.js-search) 호버 스타일 */
 .navbar .js-search:hover,
 .navbar .js-search:focus {
